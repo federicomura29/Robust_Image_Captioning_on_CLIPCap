@@ -4,3 +4,6 @@ data/coco/val2014/
 
 # Ignore pretrained model weights
 pretrained_models/model_wieghts.pt
+
+# images
+.jpg
