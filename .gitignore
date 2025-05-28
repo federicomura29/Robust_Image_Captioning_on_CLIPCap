@@ -1,6 +1,7 @@
 # Ignore COCO dataset directories
 data/coco/train2014/
 data/coco/val2014/
+data/coco/test2014/
 
 # Ignore pretrained model weights
 pretrained_models/model_wieghts.pt
