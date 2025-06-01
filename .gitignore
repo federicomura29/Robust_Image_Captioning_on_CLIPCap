@@ -8,3 +8,6 @@ pretrained_models/model_wieghts.pt
 
 # images
 .jpg
+
+# json
+.json
