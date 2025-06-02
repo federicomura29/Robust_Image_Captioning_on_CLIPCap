@@ -1,5 +1,5 @@
 # Minimum Python version (informative only)
-python>=3.8
+# python>=3.8
 
 scikit-image==0.18.1
 transformers==4.29.2
