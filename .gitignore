@@ -2,6 +2,7 @@
 data/coco/train2014/
 data/coco/val2014/
 data/coco/test2014/
+data/coco/annotations/
 
 # Ignore pretrained model weights
 pretrained_models/model_wieghts.pt
@@ -9,5 +10,4 @@ pretrained_models/model_wieghts.pt
 # images
 .jpg
 
-# json
-.json
+
