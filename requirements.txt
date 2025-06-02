@@ -1,0 +1,15 @@
+# Minimum Python version (informative only)
+python>=3.8
+
+scikit-image==0.18.1
+transformers==4.29.2
+ftfy
+regex
+tqdm
+gdown
+pycocotools
+git+https://github.com/openai/CLIP.git
+
+# pycocoevalcap requires manual installation:
+# git clone https://github.com/salaniz/pycocoevalcap
+# cd pycocoevalcap && python setup.py install
