@@ -4,6 +4,10 @@ from PIL import Image, ImageFilter
 from skimage import io
 import numpy as np
 
+from Utils.logger import get_logger
+
+logger = get_logger()
+
 def add_noise(image_path, noise_type='gaussian'):
     """
     Apply Gaussian blur or salt-and-pepper noise to an image.
@@ -58,26 +62,3 @@ def process_images(new_folder, config, source_folder, selected_images):
         # Save processed image
         save_path = os.path.join(new_folder, filename)
         processed_img.save(save_path)
-
-
-if __name__ == "__main__":
-
-    val_images_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/coco/val_2014")
-    all_images = [f for f in os.listdir(val_images_dir) if f.lower().endswith('.jpg')]
-    selected_images = all_images[:100]  # Select 100 consistent images
-
-    # === Run the processing with different configurations ===
-    output_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "eval_images")
-    
-
-    # 1. Base images (no modification)
-    base_folder = os.path.join(output_root, "base_images")
-    process_images(base_folder, "base", val_images_dir, selected_images)
-
-    # 2. Noisy images
-    noise_folder = os.path.join(output_root, "noisy_images")
-    process_images(noise_folder, "noise", val_images_dir, selected_images)
-
-    # 3. Object removal (assuming your friend implements this later)
-    removal_folder = os.path.join(output_root, "removed_images")
-    process_images(removal_folder, "removal", val_images_dir, selected_images)
