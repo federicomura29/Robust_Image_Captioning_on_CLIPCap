@@ -27,13 +27,117 @@ def add_noise(image_path, noise_type='gaussian'):
     else:
         raise ValueError("Unsupported noise_type. Use 'gaussian'.")
     
+'''
+Input:
 
-def remove_object(image_path):
-    """
-    Placeholder for object removal logic.
-    """
-    pass
+image_path: straightforward, the path to the image object is to be removed from.
+captions_path: should look like --> "annotations/captions_train2014.json"
+instances_path: should look like --> "annotations/instances_train2014.json"
+selection_mode: what type of strategy to use to pick the object to be removed;
+                "random"(default): picks a random object from the image
+                "smallest": picks the smallest object
+                "largest": picks the largest object
+                "first": picks the first object in the metadata
+                
 
+Output:
+
+Returns a tuple (image_original, image_removed, removal_info)
+
+- image_original: the original image loaded from `image_path` as a PIL Image.
+- image_removed: the modified image where the selected object has been inpainted (removed), PIL Image.
+- removal_info: a dictionary containing metadata about the removal process, including:
+    - 'caption': the image caption used to guide inpainting
+    - 'object_category': the category name of the removed object (e.g., "person", "dog")
+    - 'selection_mode': the selection strategy used (e.g., "random", "largest")
+    - 'bbox': the bounding box of the removed object in COCO format [x, y, width, height]
+    
+Note: If an error shows up about python types or similar, try doing this: pip install "numpy<2" --force-reinstall
+'''
+def remove_object(image_path, captions_path, instances_path, selection_mode="random"):
+    # --- Load COCO data ---
+    with open(captions_path, "r") as f:
+        captions_data = json.load(f)
+    with open(instances_path, "r") as f:
+        instances_data = json.load(f)
+
+    # --- Build mapping dicts ---
+    image_id_to_filename = {img["id"]: img["file_name"] for img in instances_data["images"]}
+    category_id_to_name = {cat["id"]: cat["name"] for cat in instances_data["categories"]}
+    annotations_by_image = defaultdict(list)
+    captions_by_image = defaultdict(list)
+
+    for ann in instances_data["annotations"]:
+        annotations_by_image[ann["image_id"]].append(ann)
+    for cap in captions_data["annotations"]:
+        captions_by_image[cap["image_id"]].append(cap["caption"])
+
+    # --- Get image filename and ID ---
+    image_filename = os.path.basename(image_path)
+    image_id = next((img["id"] for img in instances_data["images"] if img["file_name"] == image_filename), None)
+    if image_id is None:
+        raise ValueError("Image not found in COCO metadata")
+
+    # --- Select object ---
+    objects = annotations_by_image[image_id]
+    if not objects:
+        raise ValueError("No objects found for this image")
+
+    if selection_mode == "first":
+        obj = objects[0]
+    elif selection_mode == "random":
+        obj = random.choice(objects)
+    elif selection_mode == "largest":
+        obj = max(objects, key=lambda o: o["bbox"][2] * o["bbox"][3])
+    elif selection_mode == "smallest":
+        obj = min(objects, key=lambda o: o["bbox"][2] * o["bbox"][3])
+    else:
+        raise ValueError("Invalid selection_mode")
+
+    # --- Mask creation ---
+    def segmentation_to_mask(segmentation, image_size):
+        mask = Image.new('L', image_size, 0)
+        for polygon in segmentation:
+            polygon = [tuple(polygon[i:i+2]) for i in range(0, len(polygon), 2)]
+            ImageDraw.Draw(mask).polygon(polygon, outline=1, fill=1)
+        return np.array(mask)
+
+    original_image = Image.open(image_path).convert("RGB")
+    width, height = original_image.size
+    mask_np = segmentation_to_mask(obj["segmentation"], (width, height))
+
+    # --- Dilate mask ---
+    dilated = binary_dilation((mask_np > 0).astype(np.uint8), iterations=25).astype(np.uint8)
+    mask_pil = Image.fromarray((dilated * 255).astype(np.uint8)).convert("L")
+
+    # --- Resize for Stable Diffusion ---
+    original_resized = original_image.resize((512, 512)).convert("RGB")
+    mask_resized = mask_pil.resize((512, 512)).convert("L")
+
+    # --- Inpaint using Stable Diffusion ---
+    pipe = StableDiffusionInpaintPipeline.from_pretrained(
+        "runwayml/stable-diffusion-inpainting",
+        torch_dtype=torch.float16
+    ).to("cuda")
+    pipe.safety_checker = lambda images, **kwargs: (images, False)
+
+    result = pipe(
+        prompt="the same background texture extended to fill the removed area",
+        image=original_resized,
+        mask_image=mask_resized
+    ).images[0]
+
+    # --- Metadata ---
+    removal_info = {
+        "image_id": image_id,
+        "image_filename": image_filename,
+        "removed_object": category_id_to_name[obj["category_id"]],
+        "bbox": obj["bbox"],
+        "original_captions": captions_by_image[image_id],
+        "new_caption": None
+    }
+
+    return original_resized, result, removal_info
 
 def process_images(new_folder, config, source_folder, selected_images):
     """
