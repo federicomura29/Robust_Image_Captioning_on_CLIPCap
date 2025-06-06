@@ -150,7 +150,7 @@ def remove_object(image_path, captions_path, instances_path, selection_mode="ran
 
     return original_resized, result, removal_info
 
-def process_images(new_folder, config, source_folder, selected_images):
+def process_images(new_folder, config, source_folder, selected_images, captions_path="", instances_path=""):
     """
     Process images with noise or object removal and save them to a new folder.
 
@@ -168,7 +168,7 @@ def process_images(new_folder, config, source_folder, selected_images):
         if config == 'noise':
             processed_img = add_noise(image_path, noise_type='gaussian')
         elif config == 'removal':
-            processed_img = remove_object(image_path)  # expected to return a PIL image
+            original_img, processed_img, metadata = remove_object(image_path,captions_path,instances_path,"random")
         elif config == 'base':
             processed_img = Image.open(image_path)
         else:
