@@ -9,15 +9,12 @@ import torch
 from skimage.morphology import binary_dilation
 from diffusers import StableDiffusionInpaintPipeline
 
-
-from Utils.logger import get_logger
-from Utils.config import (
+import logger
+from config import (
     DATA_VAL_PATH,
     DATA_EVAL_PATH,
     DATA_ANN_PATH
 )
-
-logger = get_logger()
 
 def add_noise(image_path, noise_type='gaussian'):
     """
