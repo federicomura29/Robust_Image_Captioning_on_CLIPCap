@@ -14,6 +14,7 @@ from Utils.logger import get_logger
 from Utils.config import (
     DATA_VAL_PATH,
     DATA_EVAL_PATH,
+    DATA_ANN_PATH
 )
 
 logger = get_logger()
@@ -168,7 +169,7 @@ def process_images(new_folder, config, source_folder, selected_images, captions_
         if config == 'noise':
             processed_img = add_noise(image_path, noise_type='gaussian')
         elif config == 'removal':
-            original_img, processed_img, metadata = remove_object(image_path,captions_path,instances_path,"random")
+            og_img,processed_img, metadata= remove_object(image_path,captions_path,instances_path,"random")  # expected to return a PIL image
         elif config == 'base':
             processed_img = Image.open(image_path)
         else:
@@ -209,10 +210,13 @@ if not os.path.exists(DATA_EVAL_PATH):
     process_images(noise_folder, "noise", DATA_VAL_PATH, selected_images)
     logger.info("Noisy images processed and saved to %s", noise_folder)
 
-    # 3. Object removal (assuming your friend implements this later)
+    # 3. Object removal
     logger.info("Processing images for object removal...")
     removal_folder = os.path.join(output_root, "removed_images")
-    process_images(removal_folder, "removal", DATA_VAL_PATH, selected_images)
+    captions_path = os.path.join(DATA_ANN_PATH, "captions_val2014.json")
+    instances_path = os.path.join(DATA_ANN_PATH, "instances_val2014.json")
+
+    process_images(removal_folder, "removal", DATA_VAL_PATH, selected_images,captions_path,instances_path)
     logger.info("Object removal images processed and saved to %s", removal_folder)
 
 logger.info("-" * 50)

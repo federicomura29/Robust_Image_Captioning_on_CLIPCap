@@ -20,7 +20,7 @@ from Utils.config import (
     DEVICE,
     PRETRAINED_MODEL,
     EVAL,
-    DATA_ANN_VAL_PATH,
+    DATA_ANN_PATH,
 )
 
 
@@ -104,8 +104,9 @@ if __name__ == "__main__":
 
         logger.info("Compare to groundtruth captions and extract metrics...")
 
-        base_metrics = eval.evaluate_captions(DATA_ANN_VAL_PATH,base_res, base_img_ids, "base_images")
-        noisy_metrics = eval.evaluate_captions(DATA_ANN_VAL_PATH,noisy_res, noisy_img_ids, "noisy_images")
+        captions_path = os.path.join(DATA_ANN_PATH, "captions_val2014.json")
+        base_metrics = eval.evaluate_captions(captions_path,base_res, base_img_ids, "base_images")
+        noisy_metrics = eval.evaluate_captions(captions_path,noisy_res, noisy_img_ids, "noisy_images")
         """
         rem_metrics = eval.evaluate_captions(DATA_ANN_VAL_PATH,rem_res, rem_img_ids, "removed_images")
         """
