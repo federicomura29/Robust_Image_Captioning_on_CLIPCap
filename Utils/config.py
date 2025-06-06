@@ -18,7 +18,7 @@ DATA_ANN_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data/c
 DATA_EVAL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "eval_images")
 OUTPUT_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Outputs")
 MODELS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Models")
-PRETRAINED_MODEL = os.path.join(os.path.dirname(os.path.dirname(__file__)), "pretrained_models/models_wieghts.pt")
+PRETRAINED_MODEL = os.path.join(os.path.dirname(os.path.dirname(__file__)), "pretrained_models/model_wieghts.pt")
 
 # -----------------------------------------
 # Parameters

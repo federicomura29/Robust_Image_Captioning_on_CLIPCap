@@ -10,7 +10,6 @@ import json
 
 from Utils import (
     logger,
-    img_processing,
     eval
 )
 

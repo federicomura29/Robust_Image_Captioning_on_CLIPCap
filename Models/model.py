@@ -3,9 +3,10 @@ import numpy as np
 import torch
 import torch.nn.functional as nnf
 from typing import Tuple, List, Union, Optional
-from transformers import GPT2Tokenizer, GPT2LMHeadModel, AdamW, get_linear_schedule_with_warmup
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, get_linear_schedule_with_warmup
 from tqdm import tqdm, trange
 from enum import Enum
+from torch.optim import AdamW
 
 
 
