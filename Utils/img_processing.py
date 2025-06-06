@@ -1,10 +1,20 @@
 import os
 import random
-from PIL import Image, ImageFilter
+from PIL import Image, ImageFilter, ImageDraw
 from skimage import io
 import numpy as np
+import json
+from collections import defaultdict
+import torch
+from skimage.morphology import binary_dilation
+from diffusers import StableDiffusionInpaintPipeline
+
 
 from Utils.logger import get_logger
+from Utils.config import (
+    DATA_VAL_PATH,
+    DATA_EVAL_PATH,
+)
 
 logger = get_logger()
 
@@ -166,3 +176,44 @@ def process_images(new_folder, config, source_folder, selected_images):
         # Save processed image
         save_path = os.path.join(new_folder, filename)
         processed_img.save(save_path)
+
+
+logger.initialize_logger()
+logger = logger.get_logger()
+
+logger.info("-" * 50)
+logger.info("Executing image processing script")
+logger.info("-" * 50)
+
+if not os.path.exists(DATA_EVAL_PATH):
+    
+    os.makedirs(DATA_EVAL_PATH)
+    logger.info("Created evaluation directory: %s", DATA_EVAL_PATH)
+    logger.info("Loading images from COCO validation set...")
+    all_images = [f for f in os.listdir(DATA_VAL_PATH) if f.lower().endswith('.jpg')]
+    selected_images = all_images[:100]  # Select 100 consistent images
+
+    # === Run the processing with different configurations ===
+    output_root = DATA_EVAL_PATH
+        
+    # 1. Base images (no modification)
+    logger.info("Processing base images...")
+    base_folder = os.path.join(output_root, "base_images")
+    process_images(base_folder, "base", DATA_VAL_PATH, selected_images)
+    logger.info("Base images processed and saved to %s", base_folder)
+
+    # 2. Noisy images
+    logger.info("Processing noisy images...")
+    noise_folder = os.path.join(output_root, "noisy_images")
+    process_images(noise_folder, "noise", DATA_VAL_PATH, selected_images)
+    logger.info("Noisy images processed and saved to %s", noise_folder)
+
+    # 3. Object removal (assuming your friend implements this later)
+    logger.info("Processing images for object removal...")
+    removal_folder = os.path.join(output_root, "removed_images")
+    process_images(removal_folder, "removal", DATA_VAL_PATH, selected_images)
+    logger.info("Object removal images processed and saved to %s", removal_folder)
+
+logger.info("-" * 50)
+logger.info("Image processing completed successfully")
+logger.info("-" * 50)

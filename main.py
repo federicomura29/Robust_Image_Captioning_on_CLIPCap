@@ -34,38 +34,6 @@ if __name__ == "__main__":
     logger.info("Executing main")
     logger.info("-" * 50)
 
-    if not os.path.exists(DATA_EVAL_PATH):
-        os.makedirs(DATA_EVAL_PATH)
-        logger.info("Created evaluation directory: %s", DATA_EVAL_PATH)
-        logger.info("Loading images from COCO validation set...")
-        all_images = [f for f in os.listdir(DATA_VAL_PATH) if f.lower().endswith('.jpg')]
-        selected_images = all_images[:100]  # Select 100 consistent images
-
-        # === Run the processing with different configurations ===
-        output_root = DATA_EVAL_PATH
-        
-        # 1. Base images (no modification)
-        logger.info("Processing base images...")
-        base_folder = os.path.join(output_root, "base_images")
-        img_processing.process_images(base_folder, "base", DATA_VAL_PATH, selected_images)
-        logger.info("Base images processed and saved to %s", base_folder)
-
-        # 2. Noisy images
-        logger.info("Processing noisy images...")
-        noise_folder = os.path.join(output_root, "noisy_images")
-        img_processing.process_images(noise_folder, "noise", DATA_VAL_PATH, selected_images)
-        logger.info("Noisy images processed and saved to %s", noise_folder)
-
-        # 3. Object removal (assuming your friend implements this later)
-        logger.info("Processing images for object removal...")
-        removal_folder = os.path.join(output_root, "removed_images")
-        img_processing.process_images(removal_folder, "removal", DATA_VAL_PATH, selected_images)
-        logger.info("Object removal images processed and saved to %s", removal_folder)
-
-    logger.info("-" * 50)
-    logger.info("Loading model")
-    logger.info("-" * 50)
-
     if EVAL:
 
         # Load the CLIP model and tokenizer
