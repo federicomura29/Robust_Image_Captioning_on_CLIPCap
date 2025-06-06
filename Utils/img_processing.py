@@ -6,7 +6,7 @@ import numpy as np
 import json
 from collections import defaultdict
 import torch
-from skimage.morphology import binary_dilation
+from scipy.ndimage import binary_dilation
 from diffusers import StableDiffusionInpaintPipeline
 
 import logger
@@ -90,7 +90,8 @@ def remove_object(image_path, captions_path, instances_path, selection_mode="ran
     # --- Select object ---
     objects = annotations_by_image[image_id]
     if not objects:
-        raise ValueError("No objects found for this image")
+        return None, None, None
+
 
     if selection_mode == "first":
         obj = objects[0]
@@ -104,12 +105,30 @@ def remove_object(image_path, captions_path, instances_path, selection_mode="ran
         raise ValueError("Invalid selection_mode")
 
     # --- Mask creation ---
+    """
     def segmentation_to_mask(segmentation, image_size):
         mask = Image.new('L', image_size, 0)
         for polygon in segmentation:
             polygon = [tuple(polygon[i:i+2]) for i in range(0, len(polygon), 2)]
             ImageDraw.Draw(mask).polygon(polygon, outline=1, fill=1)
         return np.array(mask)
+    """
+    
+    def segmentation_to_mask(segmentation, image_size):
+        mask = Image.new('L', image_size, 0)
+        
+        for seg in segmentation:
+            if isinstance(seg[0], (int, float)):  # single polygon
+                points = [tuple(seg[i:i+2]) for i in range(0, len(seg), 2)]
+            else:  # nested structure
+                points = []
+                for subseg in seg:
+                    points.extend([tuple(subseg[i:i+2]) for i in range(0, len(subseg), 2)])
+            if points:
+                ImageDraw.Draw(mask).polygon(points, outline=1, fill=1)
+
+        return np.array(mask)
+
 
     original_image = Image.open(image_path).convert("RGB")
     width, height = original_image.size
@@ -125,10 +144,17 @@ def remove_object(image_path, captions_path, instances_path, selection_mode="ran
 
     # --- Inpaint using Stable Diffusion ---
     pipe = StableDiffusionInpaintPipeline.from_pretrained(
-        "runwayml/stable-diffusion-inpainting",
-        torch_dtype=torch.float16
+    "stabilityai/stable-diffusion-2-inpainting",
+    torch_dtype=torch.float16
     ).to("cuda")
-    pipe.safety_checker = lambda images, **kwargs: (images, False)
+
+    #pipe = StableDiffusionInpaintPipeline.from_pretrained(
+    #    "runwayml/stable-diffusion-inpainting",
+    #    torch_dtype=torch.float16
+    #).to("cuda")
+    
+    #pipe.safety_checker = lambda images, **kwargs: (images, False)
+    pipe.safety_checker = lambda images, **kwargs: (images, [False] * len(images))
 
     result = pipe(
         prompt="the same background texture extended to fill the removed area",
@@ -173,6 +199,9 @@ def process_images(new_folder, config, source_folder, selected_images, captions_
             raise ValueError("Invalid config. Use 'noise', 'removal', or 'base'.")
 
         # Save processed image
+        if processed_img == None:
+            print(f"Skipping {image_path}: No objects found.")
+            continue
         save_path = os.path.join(new_folder, filename)
         processed_img.save(save_path)
 
@@ -216,6 +245,9 @@ if not os.path.exists(DATA_EVAL_PATH):
     process_images(removal_folder, "removal", DATA_VAL_PATH, selected_images,captions_path,instances_path)
     logger.info("Object removal images processed and saved to %s", removal_folder)
 
-logger.info("-" * 50)
-logger.info("Image processing completed successfully")
-logger.info("-" * 50)
+    logger.info("-" * 50)
+    logger.info("Image processing completed successfully")
+    logger.info("-" * 50)
+
+else:
+    logger.info("Eval folder already created")

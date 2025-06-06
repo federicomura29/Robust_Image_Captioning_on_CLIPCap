@@ -1,0 +1,15 @@
+2025-06-06 10:08:28,696 - root - INFO -> Logger initialized in filename 2025-06-06-10-08-28
+2025-06-06 10:08:28,696 - root - INFO -> --------------------------------------------------
+2025-06-06 10:08:28,696 - root - INFO -> Executing image processing script
+2025-06-06 10:08:28,696 - root - INFO -> --------------------------------------------------
+2025-06-06 10:08:28,697 - root - INFO -> Created evaluation directory: /home/jovyan/Desktop/ACVPR-Project/eval_images
+2025-06-06 10:08:28,698 - root - INFO -> Loading images from COCO validation set...
+2025-06-06 10:08:28,725 - root - INFO -> Processing base images...
+2025-06-06 10:08:29,878 - root - INFO -> Base images processed and saved to /home/jovyan/Desktop/ACVPR-Project/eval_images/base_images
+2025-06-06 10:08:29,878 - root - INFO -> Processing noisy images...
+2025-06-06 10:08:32,269 - root - INFO -> Noisy images processed and saved to /home/jovyan/Desktop/ACVPR-Project/eval_images/noisy_images
+2025-06-06 10:08:32,269 - root - INFO -> Processing images for object removal...
+2025-06-06 10:31:25,932 - root - INFO -> Object removal images processed and saved to /home/jovyan/Desktop/ACVPR-Project/eval_images/removed_images
+2025-06-06 10:31:25,933 - root - INFO -> --------------------------------------------------
+2025-06-06 10:31:25,933 - root - INFO -> Image processing completed successfully
+2025-06-06 10:31:25,933 - root - INFO -> --------------------------------------------------
