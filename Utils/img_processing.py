@@ -65,6 +65,7 @@ Returns a tuple (image_original, image_removed, removal_info)
 Note: If an error shows up about python types or similar, try doing this: pip install "numpy<2" --force-reinstall
 '''
 def remove_object(image_path, captions_path, instances_path, selection_mode="random"):
+    
     # --- Load COCO data ---
     with open(captions_path, "r") as f:
         captions_data = json.load(f)
