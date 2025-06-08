@@ -83,7 +83,7 @@ if __name__ == "__main__":
             use_beam_search=True
         )
 
-        """
+        
         logger.info("For object removal images:")
         # Generate captions for object removal images
         rem_res, rem_img_ids =eval.generate_captions(
@@ -97,7 +97,7 @@ if __name__ == "__main__":
             folder_name="removed_images",
             use_beam_search=True
         )
-        """
+        
         logger.info("Caption generation completed for all images.")
         logger.info("-" * 50)
 
@@ -106,9 +106,7 @@ if __name__ == "__main__":
         captions_path = os.path.join(DATA_ANN_PATH, "captions_val2014.json")
         base_metrics = eval.evaluate_captions(captions_path,base_res, base_img_ids, "base_images")
         noisy_metrics = eval.evaluate_captions(captions_path,noisy_res, noisy_img_ids, "noisy_images")
-        """
-        rem_metrics = eval.evaluate_captions(DATA_ANN_VAL_PATH,rem_res, rem_img_ids, "removed_images")
-        """
+        rem_metrics = eval.evaluate_captions(captions_path,rem_res, rem_img_ids, "removed_images")
         logger.info("Evaluation completed. Results saved in the evaluation folder.")
         logger.info("-" * 50)
         
