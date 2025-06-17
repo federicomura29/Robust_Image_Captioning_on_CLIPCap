@@ -36,11 +36,6 @@ clip_model = clip_model.to(device)
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
-SPECIAL_TOKENS = {
-    "additional_special_tokens": ["<SELF_ANALYSIS>", "<REVISED_CAPTION>", "<END>"]
-}
-tokenizer.add_special_tokens(SPECIAL_TOKENS)
-
 prefix_length = 40
 model = ClipCaptionPrefix(
     prefix_length,
@@ -52,7 +47,6 @@ model = ClipCaptionPrefix(
 
 state_dict = torch.load(model_path, map_location=CPU)
 model.load_state_dict(state_dict, strict=False)
-model.gpt.resize_token_embeddings(len(tokenizer))
 model = model.eval().to(device)
 
 DATA_EVAL_PATH = "eval_images/less_images_for_testing"
