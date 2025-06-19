@@ -8,6 +8,7 @@ import json
 from pycocotools.coco import COCO
 from pycocoevalcap.eval import COCOEvalCap
 import logging
+import tempfile
 
 OUTPUT_PATH = "outputs"
 
@@ -75,3 +76,17 @@ def evaluate_captions(data_eval_path, resFile, image_ids, type):
             f.write(f"{metric}: {score:.4f}\n")
 
     return cocoEval.eval
+
+
+def evaluate_single_caption(coco, image_id, caption):
+    # Create a temporary result file with one caption
+    result = [{"image_id": image_id, "caption": caption}]
+    with tempfile.NamedTemporaryFile("w+", delete=False, suffix=".json") as tmp:
+        json.dump(result, tmp)
+        tmp.flush()
+        cocoRes = coco.loadRes(tmp.name)
+        cocoEval = COCOEvalCap(coco, cocoRes)
+        cocoEval.params["image_id"] = [image_id]
+        cocoEval.evaluate()
+        os.unlink(tmp.name)
+        return cocoEval.eval

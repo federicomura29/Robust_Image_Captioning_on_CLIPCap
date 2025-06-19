@@ -1,0 +1,560 @@
+{
+    "352507": {
+        "base_caption": "A living room with couches, chairs, and a table.",
+        "noisy_caption": "A view of a living room with a couch and chairs.",
+        "base_metrics": {
+            "Bleu_1": 0.7777777776049386,
+            "Bleu_2": 0.6972166886186177,
+            "Bleu_3": 0.5928155506075895,
+            "Bleu_4": 0.4316700105783786,
+            "METEOR": 0.29962720401379284,
+            "ROUGE_L": 0.7081260364842454,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.818181818033058,
+            "Bleu_2": 0.7006490496147952,
+            "Bleu_3": 0.6484993171237868,
+            "Bleu_4": 0.6076795806936528,
+            "METEOR": 0.43374945571910944,
+            "ROUGE_L": 0.7128547579298832,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.0404040404281194,
+            "Bleu_2": 0.003432360996177497,
+            "Bleu_3": 0.05568376651619733,
+            "Bleu_4": 0.17600957011527418,
+            "METEOR": 0.1341222517053166,
+            "ROUGE_L": 0.00472872144563774,
+            "CIDEr": 0.0
+        }
+    },
+    "21592": {
+        "base_caption": "A close up of a person holding a Nintendo Wii remote.",
+        "noisy_caption": "A person holding a Nintendo Wii game controller.",
+        "base_metrics": {
+            "Bleu_1": 0.7272727271404961,
+            "Bleu_2": 0.6605782589527088,
+            "Bleu_3": 0.5788357479845987,
+            "Bleu_4": 0.4692470063178068,
+            "METEOR": 0.3870384469980833,
+            "ROUGE_L": 0.6500888099467139,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.9999999997500004,
+            "Bleu_2": 0.9258200995328305,
+            "Bleu_3": 0.8298265331423224,
+            "Bleu_4": 0.6914415690877681,
+            "METEOR": 0.45846814347486753,
+            "ROUGE_L": 0.875,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.27272727260950436,
+            "Bleu_2": 0.2652418405801217,
+            "Bleu_3": 0.25099078515772366,
+            "Bleu_4": 0.2221945627699613,
+            "METEOR": 0.07142969647678421,
+            "ROUGE_L": 0.22491119005328608,
+            "CIDEr": 0.0
+        }
+    },
+    "169539": {
+        "base_caption": "A man wearing a suit and tie standing in front of a building.",
+        "noisy_caption": "A man in a suit standing in front of a wall.",
+        "base_metrics": {
+            "Bleu_1": 0.692307692254438,
+            "Bleu_2": 0.537086155486539,
+            "Bleu_3": 0.42848816227572245,
+            "Bleu_4": 0.3541698765833131,
+            "METEOR": 0.3961240871994118,
+            "ROUGE_L": 0.6768377253814147,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.7272727271404961,
+            "Bleu_2": 0.6030226890431458,
+            "Bleu_3": 0.4948976030651392,
+            "Bleu_4": 0.4172261447786801,
+            "METEOR": 0.44706144892992616,
+            "ROUGE_L": 0.7272727272727273,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.034965034886058066,
+            "Bleu_2": 0.06593653355660678,
+            "Bleu_3": 0.06640944078941674,
+            "Bleu_4": 0.06305626819536697,
+            "METEOR": 0.050937361730514386,
+            "ROUGE_L": 0.05043500189131256,
+            "CIDEr": 0.0
+        }
+    },
+    "50422": {
+        "base_caption": "A close up of a plate of food on a table.",
+        "noisy_caption": "A slice of pizza sitting on top of a white plate.",
+        "base_metrics": {
+            "Bleu_1": 0.636363636247934,
+            "Bleu_2": 0.504524979015488,
+            "Bleu_3": 0.30467789435409426,
+            "Bleu_4": 4.336189089491568e-05,
+            "METEOR": 0.30135979275710706,
+            "ROUGE_L": 0.4803149606299213,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.818181818033058,
+            "Bleu_2": 0.756787468523232,
+            "Bleu_3": 0.5758051388015543,
+            "Bleu_4": 6.98930762140341e-05,
+            "METEOR": 0.3987346638029704,
+            "ROUGE_L": 0.8181818181818181,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.181818181785124,
+            "Bleu_2": 0.252262489507744,
+            "Bleu_3": 0.27112724444746,
+            "Bleu_4": 2.6531185319118416e-05,
+            "METEOR": 0.09737487104586334,
+            "ROUGE_L": 0.3378668575518968,
+            "CIDEr": 0.0
+        }
+    },
+    "35368": {
+        "base_caption": "A bunch of bananas in a bowl on a table.",
+        "noisy_caption": "A bowl of fruit sitting on top of a counter.",
+        "base_metrics": {
+            "Bleu_1": 0.7999999999200001,
+            "Bleu_2": 0.5962847939370028,
+            "Bleu_3": 0.3542195230211848,
+            "Bleu_4": 5.019724248194722e-05,
+            "METEOR": 0.23573307995906975,
+            "ROUGE_L": 0.5669144981412639,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.8999999999100001,
+            "Bleu_2": 0.7745966691597205,
+            "Bleu_3": 0.6694329500071684,
+            "Bleu_4": 0.5410822689891495,
+            "METEOR": 0.3229411468272025,
+            "ROUGE_L": 0.6802973977695167,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.09999999998999998,
+            "Bleu_2": 0.17831187522271763,
+            "Bleu_3": 0.3152134269859836,
+            "Bleu_4": 0.5410320717466676,
+            "METEOR": 0.08720806686813273,
+            "ROUGE_L": 0.11338289962825276,
+            "CIDEr": 0.0
+        }
+    },
+    "148620": {
+        "base_caption": "A desktop computer sitting on top of a desk.",
+        "noisy_caption": "A laptop computer sitting on top of a desk.",
+        "base_metrics": {
+            "Bleu_1": 0.6666666665185187,
+            "Bleu_2": 0.40824829037030635,
+            "Bleu_3": 2.8768479126408824e-06,
+            "Bleu_4": 7.936880924121685e-09,
+            "METEOR": 0.21084376570118366,
+            "ROUGE_L": 0.5213675213675214,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.7777777776049386,
+            "Bleu_2": 0.44095855174304566,
+            "Bleu_3": 3.028534320667826e-06,
+            "Bleu_4": 8.24872000435789e-09,
+            "METEOR": 0.26298267967284683,
+            "ROUGE_L": 0.5213675213675214,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.11111111108641991,
+            "Bleu_2": 0.0327102613727393,
+            "Bleu_3": 1.516864080269437e-07,
+            "Bleu_4": 3.118390802362048e-10,
+            "METEOR": 0.052138913971663176,
+            "ROUGE_L": 0.0,
+            "CIDEr": 0.0
+        }
+    },
+    "312191": {
+        "base_caption": "A flock of seagulls flying over a beach.",
+        "noisy_caption": "A group of birds flying over a body of water.",
+        "base_metrics": {
+            "Bleu_1": 0.7499999998125003,
+            "Bleu_2": 0.5669467093670424,
+            "Bleu_3": 0.3769737204628541,
+            "Bleu_4": 5.721248422925795e-05,
+            "METEOR": 0.1653557785526173,
+            "ROUGE_L": 0.5446428571428571,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.8999999998200003,
+            "Bleu_2": 0.8366600263620957,
+            "Bleu_3": 0.8067143228412188,
+            "Bleu_4": 0.7825422898646864,
+            "METEOR": 0.47249068406310357,
+            "ROUGE_L": 0.9,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.15000000000750002,
+            "Bleu_2": 0.2697133169950533,
+            "Bleu_3": 0.4297406023783647,
+            "Bleu_4": 0.7824850773804571,
+            "METEOR": 0.3071349055104863,
+            "ROUGE_L": 0.3553571428571429,
+            "CIDEr": 0.0
+        }
+    },
+    "304853": {
+        "base_caption": "A man is working on a green kite.",
+        "noisy_caption": "A man holding a green kite in a room.",
+        "base_metrics": {
+            "Bleu_1": 0.5841005871575288,
+            "Bleu_2": 0.5098447912559291,
+            "Bleu_3": 0.323134776912335,
+            "Bleu_4": 4.787974948056658e-05,
+            "METEOR": 0.29546577032308796,
+            "ROUGE_L": 0.5791139240506329,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.894839316615517,
+            "Bleu_2": 0.8370455347417358,
+            "Bleu_3": 0.7650768537649355,
+            "Bleu_4": 0.7189393373397299,
+            "METEOR": 0.4233088764446053,
+            "ROUGE_L": 0.8356164383561644,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.3107387294579882,
+            "Bleu_2": 0.32720074348580674,
+            "Bleu_3": 0.4419420768526005,
+            "Bleu_4": 0.7188914575902493,
+            "METEOR": 0.12784310612151734,
+            "ROUGE_L": 0.2565025143055315,
+            "CIDEr": 0.0
+        }
+    },
+    "457074": {
+        "base_caption": "A group of people flying kites in the sky.",
+        "noisy_caption": "A group of people flying kites in a field.",
+        "base_metrics": {
+            "Bleu_1": 0.7777777776049386,
+            "Bleu_2": 0.5400617247435577,
+            "Bleu_3": 0.3466806370930039,
+            "Bleu_4": 5.133450479131077e-05,
+            "METEOR": 0.2593681422745659,
+            "ROUGE_L": 0.5893719806763285,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.8888888886913584,
+            "Bleu_2": 0.6666666665138892,
+            "Bleu_3": 0.39893898696432895,
+            "Bleu_4": 5.7035079043965714e-05,
+            "METEOR": 0.2726660138854184,
+            "ROUGE_L": 0.5962854349951124,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.1111111110864198,
+            "Bleu_2": 0.12660494177033144,
+            "Bleu_3": 0.05225834987132505,
+            "Bleu_4": 5.700574252654946e-06,
+            "METEOR": 0.013297871610852496,
+            "ROUGE_L": 0.006913454318783985,
+            "CIDEr": 0.0
+        }
+    },
+    "362092": {
+        "base_caption": "A bus that is parked next to a fence.",
+        "noisy_caption": "A bus that is parked on the side of the road.",
+        "base_metrics": {
+            "Bleu_1": 0.555555555432099,
+            "Bleu_2": 0.26352313828697443,
+            "Bleu_3": 2.1487199818053206e-06,
+            "Bleu_4": 6.376715692219053e-09,
+            "METEOR": 0.18547486341093425,
+            "ROUGE_L": 0.4444444444444444,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.6363636363057852,
+            "Bleu_2": 0.43693144871094447,
+            "Bleu_3": 2.7681823803094525e-06,
+            "Bleu_4": 7.175852914006076e-09,
+            "METEOR": 0.2658363709061848,
+            "ROUGE_L": 0.5091819699499166,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.08080808087368618,
+            "Bleu_2": 0.17340831042397004,
+            "Bleu_3": 6.194623985041319e-07,
+            "Bleu_4": 7.991372217870234e-10,
+            "METEOR": 0.08036150749525053,
+            "ROUGE_L": 0.06473752550547218,
+            "CIDEr": 0.0
+        }
+    },
+    "99927": {
+        "base_caption": "A clock on top of a wall with a picture of a grandfather clock.",
+        "noisy_caption": "A clock that is sitting on top of a wall.",
+        "base_metrics": {
+            "Bleu_1": 0.6428571427653064,
+            "Bleu_2": 0.5447047793226109,
+            "Bleu_3": 0.42016589089804096,
+            "Bleu_4": 0.28656122416113383,
+            "METEOR": 0.3411370950143239,
+            "ROUGE_L": 0.5261644623346751,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.9999999998000004,
+            "Bleu_2": 0.9999999997944449,
+            "Bleu_3": 0.9564655911833888,
+            "Bleu_4": 0.9306048588976069,
+            "METEOR": 0.5111363258447063,
+            "ROUGE_L": 0.9,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.35714285703469406,
+            "Bleu_2": 0.455295220471834,
+            "Bleu_3": 0.5362997002853478,
+            "Bleu_4": 0.6440436347364731,
+            "METEOR": 0.16999923083038238,
+            "ROUGE_L": 0.37383553766532496,
+            "CIDEr": 0.0
+        }
+    },
+    "148329": {
+        "base_caption": "A man brushing his teeth in the middle of the night.",
+        "noisy_caption": "A man brushing his teeth in the grass.",
+        "base_metrics": {
+            "Bleu_1": 0.5454545454049587,
+            "Bleu_2": 0.4670993664523271,
+            "Bleu_3": 0.4174128044426241,
+            "Bleu_4": 0.36720562695015824,
+            "METEOR": 0.3369351880610954,
+            "ROUGE_L": 0.5417406749555951,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.7499999998125003,
+            "Bleu_2": 0.6546536705384689,
+            "Bleu_3": 0.5984084804271004,
+            "Bleu_4": 0.5410822689004723,
+            "METEOR": 0.35121210280944687,
+            "ROUGE_L": 0.625,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.20454545440754157,
+            "Bleu_2": 0.18755430408614182,
+            "Bleu_3": 0.1809956759844763,
+            "Bleu_4": 0.17387664195031405,
+            "METEOR": 0.014276914748351466,
+            "ROUGE_L": 0.08325932504440492,
+            "CIDEr": 0.0
+        }
+    },
+    "324670": {
+        "base_caption": "A seagull sitting on top of a brick wall.",
+        "noisy_caption": "A seagull sitting on top of a lighthouse next to a lighthouse.",
+        "base_metrics": {
+            "Bleu_1": 0.5573021303224358,
+            "Bleu_2": 0.44683577840813893,
+            "Bleu_3": 0.3444723248471614,
+            "Bleu_4": 0.2643240820383042,
+            "METEOR": 0.18052956633386313,
+            "ROUGE_L": 0.4642313546423136,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.8333333331944446,
+            "Bleu_2": 0.6741998623483217,
+            "Bleu_3": 0.5147142491101443,
+            "Bleu_4": 0.35084396950083196,
+            "METEOR": 0.2496442465842779,
+            "ROUGE_L": 0.5833333333333334,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.2760312028720088,
+            "Bleu_2": 0.22736408394018282,
+            "Bleu_3": 0.1702419242629829,
+            "Bleu_4": 0.08651988746252776,
+            "METEOR": 0.06911468025041476,
+            "ROUGE_L": 0.1191019786910198,
+            "CIDEr": 0.0
+        }
+    },
+    "52982": {
+        "base_caption": "A woman standing next to an elephant with an umbrella.",
+        "noisy_caption": "A person standing next to an elephant.",
+        "base_metrics": {
+            "Bleu_1": 0.6999999998600002,
+            "Bleu_2": 0.48304589144035537,
+            "Bleu_3": 0.3078191250093701,
+            "Bleu_4": 4.51801001705643e-05,
+            "METEOR": 0.27546388089873963,
+            "ROUGE_L": 0.5669144981412639,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.8668778995025025,
+            "Bleu_2": 0.791347633590941,
+            "Bleu_3": 0.6880414447805617,
+            "Bleu_4": 0.6129752411701457,
+            "METEOR": 0.41350261431419155,
+            "ROUGE_L": 0.7904967602591793,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.16687789964250233,
+            "Bleu_2": 0.3083017421505856,
+            "Bleu_3": 0.38022231977119164,
+            "Bleu_4": 0.6129300610699752,
+            "METEOR": 0.13803873341545192,
+            "ROUGE_L": 0.22358226211791532,
+            "CIDEr": 0.0
+        }
+    },
+    "50159": {
+        "base_caption": "A man riding skis down a snow covered slope.",
+        "noisy_caption": "A couple of people riding skis down a snowy mountain.",
+        "base_metrics": {
+            "Bleu_1": 0.6666666665185187,
+            "Bleu_2": 0.5773502690573166,
+            "Bleu_3": 0.3624601242482373,
+            "Bleu_4": 5.307712169758682e-05,
+            "METEOR": 0.17944778952672755,
+            "ROUGE_L": 0.45185185185185184,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.6999999998600002,
+            "Bleu_2": 0.6236095643341374,
+            "Bleu_3": 0.5263632996930899,
+            "Bleu_4": 0.37991784274231255,
+            "METEOR": 0.36339386936543017,
+            "ROUGE_L": 0.7000000000000001,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.033333333341481475,
+            "Bleu_2": 0.04625929527682082,
+            "Bleu_3": 0.1639031754448526,
+            "Bleu_4": 0.37986476562061494,
+            "METEOR": 0.18394607983870262,
+            "ROUGE_L": 0.24814814814814823,
+            "CIDEr": 0.0
+        }
+    },
+    "151480": {
+        "base_caption": "A group of baseball players walking on a baseball field.",
+        "noisy_caption": "A group of baseball players walking across a field.",
+        "base_metrics": {
+            "Bleu_1": 0.7999999998400004,
+            "Bleu_2": 0.7302967431901053,
+            "Bleu_3": 0.6436595896006071,
+            "Bleu_4": 0.5814307368404548,
+            "METEOR": 0.34757105221359924,
+            "ROUGE_L": 0.7554179566563467,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.894839316615517,
+            "Bleu_2": 0.8948393166093027,
+            "Bleu_3": 0.8948393166019049,
+            "Bleu_4": 0.8948393165928796,
+            "METEOR": 0.46176888670175675,
+            "ROUGE_L": 0.8840579710144927,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.0948393167755166,
+            "Bleu_2": 0.16454257341919742,
+            "Bleu_3": 0.25117972700129776,
+            "Bleu_4": 0.31340857975242487,
+            "METEOR": 0.11419783448815751,
+            "ROUGE_L": 0.12864001435814598,
+            "CIDEr": 0.0
+        }
+    },
+    "413096": {
+        "base_caption": "A blue and white jetliner sitting on top of an airport runway.",
+        "noisy_caption": "A blue and white airplane sitting on top of an airport runway.",
+        "base_metrics": {
+            "Bleu_1": 0.7499999998750001,
+            "Bleu_2": 0.26111648388903846,
+            "Bleu_3": 1.8962235065208085e-06,
+            "Bleu_4": 5.246341021918842e-09,
+            "METEOR": 0.21052631578947367,
+            "ROUGE_L": 0.3112244897959184,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.8333333331944446,
+            "Bleu_2": 0.27524094123467424,
+            "Bleu_3": 1.9640024393384217e-06,
+            "Bleu_4": 5.38636636786409e-09,
+            "METEOR": 0.21052631578947367,
+            "ROUGE_L": 0.3112244897959184,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.08333333331944448,
+            "Bleu_2": 0.014124457345635777,
+            "Bleu_3": 6.77789328176132e-08,
+            "Bleu_4": 1.4002534594524806e-10,
+            "METEOR": 0.0,
+            "ROUGE_L": 0.0,
+            "CIDEr": 0.0
+        }
+    },
+    "91909": {
+        "base_caption": "A police car is on the side of the road.",
+        "noisy_caption": "A police car is parked on the side of the road.",
+        "base_metrics": {
+            "Bleu_1": 0.5999999999400001,
+            "Bleu_2": 0.36514837163156744,
+            "Bleu_3": 0.25543647743589953,
+            "Bleu_4": 3.9281465085347674e-05,
+            "METEOR": 0.24044495346741776,
+            "ROUGE_L": 0.42508710801393734,
+            "CIDEr": 0.0
+        },
+        "noisy_metrics": {
+            "Bleu_1": 0.636363636247934,
+            "Bleu_2": 0.43693144867122347,
+            "Bleu_3": 0.2768182380057799,
+            "Bleu_4": 4.035278636666363e-05,
+            "METEOR": 0.3127925472242976,
+            "ROUGE_L": 0.5091819699499166,
+            "CIDEr": 0.0
+        },
+        "metric_diff": {
+            "Bleu_1": 0.03636363630793393,
+            "Bleu_2": 0.07178307703965603,
+            "Bleu_3": 0.021381760569880393,
+            "Bleu_4": 1.0713212813159541e-06,
+            "METEOR": 0.07234759375687985,
+            "ROUGE_L": 0.08409486193597926,
+            "CIDEr": 0.0
+        }
+    }
+}
