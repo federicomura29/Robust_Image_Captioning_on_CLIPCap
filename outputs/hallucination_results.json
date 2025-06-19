@@ -386,8 +386,8 @@
     "000000461945": {
         "small_removed": "sports ball",
         "large_removed": "tennis racket",
-        "small_caption": "a man holding a tennis racquet on top of a tennis court.",
-        "large_caption": "a man swinging a tennis racket on a tennis court.",
+        "small_caption": "a man holding a tennis racket on top of a tennis court.",
+        "large_caption": "a man swinging a tennis racket on top of a tennis court.",
         "hallucinated_small": false,
         "hallucinated_large": true
     },
