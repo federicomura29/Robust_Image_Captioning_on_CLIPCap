@@ -120,7 +120,7 @@ def eval_single():
 
 def find_improved_noise_images():
     input_path = "outputs/imagewise_metric_diff.json"
-    output_path = "outputs/imagewise_metric_diff_improved.json"
+    output_path = "outputs/imagewise_metric_diff_that_improved_after_blur.json"
 
     with open(input_path, "r") as f:
         data = json.load(f)
