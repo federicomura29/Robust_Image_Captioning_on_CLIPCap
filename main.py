@@ -45,7 +45,7 @@ if __name__ == "__main__":
         prefix_length = 40
         model = ClipCaptionPrefix(prefix_length, clip_length=40, prefix_size=640,
                                     num_layers=8, mapping_type='transformer')
-        model.load_state_dict(torch.load(PRETRAINED_MODEL, map_location=CPU)) 
+        model.load_state_dict(torch.load(PRETRAINED_MODEL, map_location=CPU), strict = False) 
         model = model.eval() 
         model = model.to(DEVICE)
         logger.info("Pre-trained model loaded successfully")

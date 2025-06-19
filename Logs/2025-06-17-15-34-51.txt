@@ -1,0 +1,318 @@
+2025-06-17 15:34:51,514 - root - INFO -> Logger initialized in filename 2025-06-17-15-34-51
+2025-06-17 15:34:51,514 - root - INFO -> --------------------------------------------------
+2025-06-17 15:34:51,514 - root - INFO -> Executing main
+2025-06-17 15:34:51,514 - root - INFO -> --------------------------------------------------
+2025-06-17 15:34:55,903 - root - INFO -> CLIP model and tokenizer loaded successfully
+2025-06-17 15:34:57,368 - root - INFO -> Pre-trained model loaded successfully
+2025-06-17 15:34:57,368 - root - INFO -> Models loaded successfully
+2025-06-17 15:34:57,368 - root - INFO -> --------------------------------------------------
+2025-06-17 15:34:57,368 - root - INFO -> Generating captions for images in the evaluation folder...
+2025-06-17 15:34:57,368 - root - INFO -> For base images:
+2025-06-17 15:34:58,625 - root - INFO -> Generated caption for image 1/100: A knife sits on top of a cup on a table.
+2025-06-17 15:34:59,370 - root - INFO -> Generated caption for image 2/100: A bear and a baby bear walking in a field.
+2025-06-17 15:35:00,269 - root - INFO -> Generated caption for image 3/100: A pile of oranges sitting on top of each other.
+2025-06-17 15:35:00,876 - root - INFO -> Generated caption for image 4/100: A close up of a person holding a Nintendo Wii remote.
+2025-06-17 15:35:01,600 - root - INFO -> Generated caption for image 5/100: A woman sitting on a motorcycle with a helmet on.
+2025-06-17 15:35:02,357 - root - INFO -> Generated caption for image 6/100: A boat sitting on top of a body of water.
+2025-06-17 15:35:02,995 - root - INFO -> Generated caption for image 7/100: A bunch of bananas in a bowl on a table.
+2025-06-17 15:35:03,881 - root - INFO -> Generated caption for image 8/100: A woman looking at a vase in a museum.
+2025-06-17 15:35:04,717 - root - INFO -> Generated caption for image 9/100: A group of people on a beach flying a kite.
+2025-06-17 15:35:05,283 - root - INFO -> Generated caption for image 10/100: A view of a lake with birds flying over it.
+2025-06-17 15:35:06,009 - root - INFO -> Generated caption for image 11/100: A man riding skis down a snow covered slope.
+2025-06-17 15:35:07,023 - root - INFO -> Generated caption for image 12/100: A couple of teddy bears sitting next to a box.
+2025-06-17 15:35:07,656 - root - INFO -> Generated caption for image 13/100: A close up of a plate of food on a table.
+2025-06-17 15:35:08,610 - root - INFO -> Generated caption for image 14/100: A man walking down a subway platform with a train in his hands.
+2025-06-17 15:35:09,437 - root - INFO -> Generated caption for image 15/100: A woman standing next to an elephant with an umbrella.
+2025-06-17 15:35:09,945 - root - INFO -> Generated caption for image 16/100: A black cat sitting on top of a red suitcase.
+2025-06-17 15:35:10,904 - root - INFO -> Generated caption for image 17/100: A skateboarder is doing a trick on a ramp.
+2025-06-17 15:35:11,876 - root - INFO -> Generated caption for image 18/100: A dog is seen in the rear view mirror of a car.
+2025-06-17 15:35:12,473 - root - INFO -> Generated caption for image 19/100: a living room with a couch and a table.
+2025-06-17 15:35:13,371 - root - INFO -> Generated caption for image 20/100: A group of stuffed animals sitting on top of a Christmas tree.
+2025-06-17 15:35:14,203 - root - INFO -> Generated caption for image 21/100: A close up of a person holding a wii remote.
+2025-06-17 15:35:15,124 - root - INFO -> Generated caption for image 22/100: A police car is on the side of the road.
+2025-06-17 15:35:16,126 - root - INFO -> Generated caption for image 23/100: A giraffe standing next to a pond next to a tree.
+2025-06-17 15:35:16,757 - root - INFO -> Generated caption for image 24/100: A clock on top of a wall with a picture of a grandfather clock.
+2025-06-17 15:35:17,672 - root - INFO -> Generated caption for image 25/100: a close up of a sandwich and salad on a plate.
+2025-06-17 15:35:18,703 - root - INFO -> Generated caption for image 26/100: A couple of people on skis in the snow.
+2025-06-17 15:35:19,708 - root - INFO -> Generated caption for image 27/100: A little girl sitting at a table with a cake.
+2025-06-17 15:35:20,691 - root - INFO -> Generated caption for image 28/100: A close up of a clock on the side of a brick wall.
+2025-06-17 15:35:21,720 - root - INFO -> Generated caption for image 29/100: A man sitting in a hospital bed next to a nurse.
+2025-06-17 15:35:22,708 - root - INFO -> Generated caption for image 30/100: A group of people walking down a street in front of a building.
+2025-06-17 15:35:23,497 - root - INFO -> Generated caption for image 31/100: A couple of people sitting at a table with food.
+2025-06-17 15:35:24,327 - root - INFO -> Generated caption for image 32/100: A young boy riding a skateboard on a bench.
+2025-06-17 15:35:24,975 - root - INFO -> Generated caption for image 33/100: A close up of a couple of fish swimming in the water.
+2025-06-17 15:35:25,808 - root - INFO -> Generated caption for image 34/100: Two trains are on the tracks next to each other.
+2025-06-17 15:35:27,049 - root - INFO -> Generated caption for image 35/100: A vase of flowers sitting on a table in a kitchen.
+2025-06-17 15:35:27,967 - root - INFO -> Generated caption for image 36/100: Two scooters are parked next to each other on a sidewalk.
+2025-06-17 15:35:28,788 - root - INFO -> Generated caption for image 37/100: A teddy bear sitting in front of a sign.
+2025-06-17 15:35:29,349 - root - INFO -> Generated caption for image 38/100: A man brushing his teeth in the middle of the night.
+2025-06-17 15:35:30,218 - root - INFO -> Generated caption for image 39/100: A desktop computer sitting on top of a desk.
+2025-06-17 15:35:30,972 - root - INFO -> Generated caption for image 40/100: A group of baseball players walking on a baseball field.
+2025-06-17 15:35:31,545 - root - INFO -> Generated caption for image 41/100: A woman hitting a tennis ball with a racket.
+2025-06-17 15:35:32,542 - root - INFO -> Generated caption for image 42/100: A man wearing a suit and tie standing in front of a building.
+2025-06-17 15:35:33,437 - root - INFO -> Generated caption for image 43/100: A dog standing in front of a bathroom mirror.
+2025-06-17 15:35:33,897 - root - INFO -> Generated caption for image 44/100: A couple of people holding surfboards on a beach.
+2025-06-17 15:35:34,718 - root - INFO -> Generated caption for image 45/100: A couple of bears sitting on rocks in the water.
+2025-06-17 15:35:35,844 - root - INFO -> Generated caption for image 46/100: A woman standing next to a girl in a red shirt.
+2025-06-17 15:35:36,727 - root - INFO -> Generated caption for image 47/100: Two horses standing next to each other in a field.
+2025-06-17 15:35:37,640 - root - INFO -> Generated caption for image 48/100: A plate of meatballs and broccoli on a table.
+2025-06-17 15:35:38,828 - root - INFO -> Generated caption for image 49/100: An image of an airplane flying in the sky.
+2025-06-17 15:35:39,544 - root - INFO -> Generated caption for image 50/100: A couple of white and black birds standing next to each other.
+2025-06-17 15:35:40,452 - root - INFO -> Generated caption for image 51/100: A flock of geese walking in a park.
+2025-06-17 15:35:41,431 - root - INFO -> Generated caption for image 52/100: A wedding cake with two layers of layers on top of each other.
+2025-06-17 15:35:42,014 - root - INFO -> Generated caption for image 53/100: A woman holding a bat in front of a group of people.
+2025-06-17 15:35:43,098 - root - INFO -> Generated caption for image 54/100: Two children standing next to a birthday cake.
+2025-06-17 15:35:43,917 - root - INFO -> Generated caption for image 55/100: A table with lots of food on it.
+2025-06-17 15:35:44,816 - root - INFO -> Generated caption for image 56/100: A man is working on a green kite.
+2025-06-17 15:35:45,757 - root - INFO -> Generated caption for image 57/100: A cat sitting in front of a living room.
+2025-06-17 15:35:46,345 - root - INFO -> Generated caption for image 58/100: A flock of seagulls flying over a beach.
+2025-06-17 15:35:47,086 - root - INFO -> Generated caption for image 59/100: A white toilet seat with a seat on it.
+2025-06-17 15:35:48,159 - root - INFO -> Generated caption for image 60/100: A seagull sitting on top of a brick wall.
+2025-06-17 15:35:49,275 - root - INFO -> Generated caption for image 61/100: A pan filled with chopped vegetables in a frying pan.
+2025-06-17 15:35:49,973 - root - INFO -> Generated caption for image 62/100: A person is holding an umbrella on a taxi cab.
+2025-06-17 15:35:50,794 - root - INFO -> Generated caption for image 63/100: A living room with couches, chairs, and a table.
+2025-06-17 15:35:51,450 - root - INFO -> Generated caption for image 64/100: A parking meter that is covered in snow.
+2025-06-17 15:35:51,848 - root - INFO -> Generated caption for image 65/100: A plate of pasta with shrimp and broccoli.
+2025-06-17 15:35:52,278 - root - INFO -> Generated caption for image 66/100: A bus that is parked next to a fence.
+2025-06-17 15:35:52,802 - root - INFO -> Generated caption for image 67/100: A man riding a wave on top of a surfboard.
+2025-06-17 15:35:53,495 - root - INFO -> Generated caption for image 68/100: A man sitting at a table with a pizza on it.
+2025-06-17 15:35:54,337 - root - INFO -> Generated caption for image 69/100: A white toilet sitting next to a bath tub.
+2025-06-17 15:35:55,114 - root - INFO -> Generated caption for image 70/100: A building with a clock on the side of the building.
+2025-06-17 15:35:55,606 - root - INFO -> Generated caption for image 71/100: A bedroom with a bed and pillows in it.
+2025-06-17 15:35:59,225 - root - INFO -> Generated caption for image 72/100: A black and white photo of a building with a sign that reads "Grenade".                                                 
+2025-06-17 15:35:59,661 - root - INFO -> Generated caption for image 73/100: A small plane sitting on top of an airport tarmac.
+2025-06-17 15:36:00,149 - root - INFO -> Generated caption for image 74/100: A man and a child flying a kite on the beach.
+2025-06-17 15:36:00,675 - root - INFO -> Generated caption for image 75/100: A blue and white jetliner sitting on top of an airport runway.
+2025-06-17 15:36:01,059 - root - INFO -> Generated caption for image 76/100: A boy riding a skateboard down a street.
+2025-06-17 15:36:01,464 - root - INFO -> Generated caption for image 77/100: A bowl of soup sitting on top of a table.
+2025-06-17 15:36:01,893 - root - INFO -> Generated caption for image 78/100: A man flying through the air while riding a snowboard.
+2025-06-17 15:36:02,448 - root - INFO -> Generated caption for image 79/100: A group of people on a paddle boat in the water.
+2025-06-17 15:36:02,867 - root - INFO -> Generated caption for image 80/100: An old car parked next to a vintage airplane.
+2025-06-17 15:36:03,279 - root - INFO -> Generated caption for image 81/100: A group of people flying kites in the sky.
+2025-06-17 15:36:03,747 - root - INFO -> Generated caption for image 82/100: A man riding on the back of a horse in a arena.
+2025-06-17 15:36:04,190 - root - INFO -> Generated caption for image 83/100: A laptop computer sitting on a table next to a window.
+2025-06-17 15:36:04,892 - root - INFO -> Generated caption for image 84/100: A group of teddy bears sitting in front of a display of teddy bears.
+2025-06-17 15:36:05,309 - root - INFO -> Generated caption for image 85/100: A man is standing in front of a brick fireplace.
+2025-06-17 15:36:05,720 - root - INFO -> Generated caption for image 86/100: A baseball player swinging a bat at a ball.
+2025-06-17 15:36:06,162 - root - INFO -> Generated caption for image 87/100: A bunch of bananas sitting next to a cup of coffee.
+2025-06-17 15:36:06,731 - root - INFO -> Generated caption for image 88/100: a close up of a bowl of food on a table.
+2025-06-17 15:36:07,204 - root - INFO -> Generated caption for image 89/100: A couple of people sitting on a bed in a bed.
+2025-06-17 15:36:07,674 - root - INFO -> Generated caption for image 90/100: A black and white cat laying on top of a baseball glove.
+2025-06-17 15:36:08,175 - root - INFO -> Generated caption for image 91/100: A teddy bear sitting on top of a bookshelf.
+2025-06-17 15:36:08,555 - root - INFO -> Generated caption for image 92/100: A young boy swinging a baseball bat at a ball.
+2025-06-17 15:36:08,925 - root - INFO -> Generated caption for image 93/100: A suitcase sitting on top of a bed.
+2025-06-17 15:36:09,359 - root - INFO -> Generated caption for image 94/100: A person doing a trick on a skateboard.
+2025-06-17 15:36:09,775 - root - INFO -> Generated caption for image 95/100: A red stop sign on the side of a road.
+2025-06-17 15:36:10,444 - root - INFO -> Generated caption for image 96/100: Two hot dogs and a bottle of soda on a table.
+2025-06-17 15:36:10,838 - root - INFO -> Generated caption for image 97/100: A group of young men playing a game of soccer.
+2025-06-17 15:36:11,220 - root - INFO -> Generated caption for image 98/100: A red double decker bus driving down a street.
+2025-06-17 15:36:11,742 - root - INFO -> Generated caption for image 99/100: A woman sitting at a table with a plate of food.
+2025-06-17 15:36:12,196 - root - INFO -> Generated caption for image 100/100: A cat sitting on top of a window sill.
+2025-06-17 15:36:12,217 - root - INFO -> Captions saved to /home/jovyan/Desktop/ACVPR-Project/Outputs/base_images_20250617_153612_captions.json
+2025-06-17 15:36:12,217 - root - INFO -> For noisy images:
+2025-06-17 15:36:12,681 - root - INFO -> Generated caption for image 1/100: A knife is sitting on a counter next to a mug.
+2025-06-17 15:36:13,175 - root - INFO -> Generated caption for image 2/100: A brown bear and a baby bear walking in a grassy field.
+2025-06-17 15:36:13,701 - root - INFO -> Generated caption for image 3/100: A pile of oranges sitting on top of each other.
+2025-06-17 15:36:14,109 - root - INFO -> Generated caption for image 4/100: A person holding a Nintendo Wii game controller.
+2025-06-17 15:36:14,589 - root - INFO -> Generated caption for image 5/100: A woman sitting on a motorcycle with a helmet on.
+2025-06-17 15:36:15,067 - root - INFO -> Generated caption for image 6/100: A rusted old boat sitting on top of a muddy river.
+2025-06-17 15:36:15,430 - root - INFO -> Generated caption for image 7/100: A bowl of fruit sitting on top of a counter.
+2025-06-17 15:36:15,975 - root - INFO -> Generated caption for image 8/100: A woman standing in front of a store with her purse in her hands.
+2025-06-17 15:36:16,380 - root - INFO -> Generated caption for image 9/100: A person is flying a kite on the beach.
+2025-06-17 15:36:16,789 - root - INFO -> Generated caption for image 10/100: A view of a lake with a sunset in the background.
+2025-06-17 15:36:17,240 - root - INFO -> Generated caption for image 11/100: A couple of people riding skis down a snowy mountain.
+2025-06-17 15:36:17,715 - root - INFO -> Generated caption for image 12/100: A couple of teddy bears sitting on top of a table.
+2025-06-17 15:36:18,140 - root - INFO -> Generated caption for image 13/100: A slice of pizza sitting on top of a white plate.
+2025-06-17 15:36:18,633 - root - INFO -> Generated caption for image 14/100: Two people standing next to each other on a subway train.
+2025-06-17 15:36:19,095 - root - INFO -> Generated caption for image 15/100: A person standing next to an elephant.
+2025-06-17 15:36:19,563 - root - INFO -> Generated caption for image 16/100: A cat sitting on top of a piece of luggage.
+2025-06-17 15:36:20,174 - root - INFO -> Generated caption for image 17/100: A skateboarder is doing a trick in the air.
+2025-06-17 15:36:20,704 - root - INFO -> Generated caption for image 18/100: A dog is taking a picture in the rear view mirror of a car.
+2025-06-17 15:36:21,061 - root - INFO -> Generated caption for image 19/100: A living room filled with furniture and a television.
+2025-06-17 15:36:21,543 - root - INFO -> Generated caption for image 20/100: A group of teddy bears sitting next to each other.
+2025-06-17 15:36:21,985 - root - INFO -> Generated caption for image 21/100: A close up of a person holding a Nintendo Wii remote.
+2025-06-17 15:36:22,412 - root - INFO -> Generated caption for image 22/100: A police car is parked on the side of the road.
+2025-06-17 15:36:22,925 - root - INFO -> Generated caption for image 23/100: Two giraffes standing in the grass next to a tree.
+2025-06-17 15:36:23,314 - root - INFO -> Generated caption for image 24/100: A clock that is sitting on top of a wall.
+2025-06-17 15:36:23,700 - root - INFO -> Generated caption for image 25/100: A white plate topped with a salad and a sandwich.
+2025-06-17 15:36:24,185 - root - INFO -> Generated caption for image 26/100: A group of people riding skis down a snow covered slope.
+2025-06-17 15:36:24,632 - root - INFO -> Generated caption for image 27/100: A little girl sitting at a table with a piece of cake.
+2025-06-17 15:36:25,123 - root - INFO -> Generated caption for image 28/100: A close up of a clock sitting on the side of a table.
+2025-06-17 15:36:25,685 - root - INFO -> Generated caption for image 29/100: A man in a hospital bed with a baby in his arms.
+2025-06-17 15:36:26,140 - root - INFO -> Generated caption for image 30/100: A view of a street in front of a building.
+2025-06-17 15:36:26,667 - root - INFO -> Generated caption for image 31/100: A couple of people sitting at a table with food.
+2025-06-17 15:36:27,165 - root - INFO -> Generated caption for image 32/100: A person riding a skateboard on a street.
+2025-06-17 15:36:27,724 - root - INFO -> Generated caption for image 33/100: A picture of a bunch of birds sitting on top of a tree.
+2025-06-17 15:36:28,071 - root - INFO -> Generated caption for image 34/100: A red and yellow train traveling down the tracks.
+2025-06-17 15:36:28,485 - root - INFO -> Generated caption for image 35/100: A kitchen with a table and chairs.
+2025-06-17 15:36:29,094 - root - INFO -> Generated caption for image 36/100: A black and white photo of a motorcycle parked next to a sidewalk.
+2025-06-17 15:36:29,540 - root - INFO -> Generated caption for image 37/100: A teddy bear sitting on top of a sidewalk.
+2025-06-17 15:36:29,954 - root - INFO -> Generated caption for image 38/100: A man brushing his teeth in the grass.
+2025-06-17 15:36:30,457 - root - INFO -> Generated caption for image 39/100: A laptop computer sitting on top of a desk.
+2025-06-17 15:36:30,852 - root - INFO -> Generated caption for image 40/100: A group of baseball players walking across a field.
+2025-06-17 15:36:31,237 - root - INFO -> Generated caption for image 41/100: A woman hitting a tennis ball with a racket.
+2025-06-17 15:36:31,751 - root - INFO -> Generated caption for image 42/100: A man in a suit standing in front of a wall.
+2025-06-17 15:36:32,312 - root - INFO -> Generated caption for image 43/100: A dog standing in front of a bathroom mirror.
+2025-06-17 15:36:32,811 - root - INFO -> Generated caption for image 44/100: A couple of surfers walking into the ocean with their boards.
+2025-06-17 15:36:33,310 - root - INFO -> Generated caption for image 45/100: A bear is laying on top of a rock.
+2025-06-17 15:36:33,929 - root - INFO -> Generated caption for image 46/100: A young woman holding a red frisbee on top of a green field.
+2025-06-17 15:36:34,377 - root - INFO -> Generated caption for image 47/100: Two horses standing next to each other in a field.
+2025-06-17 15:36:34,790 - root - INFO -> Generated caption for image 48/100: A plate topped with broccoli and meatballs.
+2025-06-17 15:36:35,180 - root - INFO -> Generated caption for image 49/100: Two planes are flying in the sky.
+2025-06-17 15:36:35,640 - root - INFO -> Generated caption for image 50/100: A couple of birds that are standing on a sidewalk.
+2025-06-17 15:36:35,972 - root - INFO -> Generated caption for image 51/100: A flock of geese walking down a street.
+2025-06-17 15:36:36,511 - root - INFO -> Generated caption for image 52/100: A wedding cake sitting on top of a table.
+2025-06-17 15:36:36,999 - root - INFO -> Generated caption for image 53/100: A woman holding a baseball bat in front of a crowd.
+2025-06-17 15:36:37,440 - root - INFO -> Generated caption for image 54/100: Two children standing next to a birthday cake.
+2025-06-17 15:36:37,794 - root - INFO -> Generated caption for image 55/100: A table filled with many different kinds of food.
+2025-06-17 15:36:38,315 - root - INFO -> Generated caption for image 56/100: A man holding a green kite in a room.
+2025-06-17 15:36:38,839 - root - INFO -> Generated caption for image 57/100: A cat is sitting on a rug in front of a window.
+2025-06-17 15:36:39,235 - root - INFO -> Generated caption for image 58/100: A group of birds flying over a body of water.
+2025-06-17 15:36:39,646 - root - INFO -> Generated caption for image 59/100: a close up of a toilet with a toilet seat.
+2025-06-17 15:36:40,235 - root - INFO -> Generated caption for image 60/100: A seagull sitting on top of a lighthouse next to a lighthouse.
+2025-06-17 15:36:40,760 - root - INFO -> Generated caption for image 61/100: A pan filled with chopped vegetables sitting on top of a wooden table.
+2025-06-17 15:36:41,306 - root - INFO -> Generated caption for image 62/100: A person holding an umbrella in the rain on a city street.
+2025-06-17 15:36:41,870 - root - INFO -> Generated caption for image 63/100: A view of a living room with a couch and chairs.
+2025-06-17 15:36:42,308 - root - INFO -> Generated caption for image 64/100: A bunch of parked cars in the snow.
+2025-06-17 15:36:42,736 - root - INFO -> Generated caption for image 65/100: A plate of pasta with shrimp and broccoli.
+2025-06-17 15:36:43,184 - root - INFO -> Generated caption for image 66/100: A bus that is parked on the side of the road.
+2025-06-17 15:36:43,761 - root - INFO -> Generated caption for image 67/100: A man riding a wave on top of a surfboard.
+2025-06-17 15:36:44,296 - root - INFO -> Generated caption for image 68/100: A man sitting at a table in front of a pizza.
+2025-06-17 15:36:44,780 - root - INFO -> Generated caption for image 69/100: A view of a bathroom with a bathtub and toilet.
+2025-06-17 15:36:45,298 - root - INFO -> Generated caption for image 70/100: A couple of people walking in front of a building.
+2025-06-17 15:36:45,955 - root - INFO -> Generated caption for image 71/100: A bed with a quilt and pillows on it.
+2025-06-17 15:36:46,431 - root - INFO -> Generated caption for image 72/100: A black and white photo of a lot of luggage.
+2025-06-17 15:36:46,899 - root - INFO -> Generated caption for image 73/100: An airplane that is sitting on top of an airport tarmac.
+2025-06-17 15:36:47,400 - root - INFO -> Generated caption for image 74/100: A man and a child flying a kite on the beach.
+2025-06-17 15:36:47,910 - root - INFO -> Generated caption for image 75/100: A blue and white airplane sitting on top of an airport runway.
+2025-06-17 15:36:48,419 - root - INFO -> Generated caption for image 76/100: A boy standing on a skateboard in front of a building.
+2025-06-17 15:36:49,030 - root - INFO -> Generated caption for image 77/100: A bowl of soup sitting on top of a table.
+2025-06-17 15:36:49,600 - root - INFO -> Generated caption for image 78/100: A man flying through the air while riding a snowboard.
+2025-06-17 15:36:50,071 - root - INFO -> Generated caption for image 79/100: A group of people on a boat in a body of water.
+2025-06-17 15:36:50,540 - root - INFO -> Generated caption for image 80/100: Two cars are parked next to each other on a field.
+2025-06-17 15:36:51,001 - root - INFO -> Generated caption for image 81/100: A group of people flying kites in a field.
+2025-06-17 15:36:51,678 - root - INFO -> Generated caption for image 82/100: A man wearing a red and white jersey sits on top of a red and white stadium.
+2025-06-17 15:36:52,127 - root - INFO -> Generated caption for image 83/100: A laptop computer sitting on top of a desk.
+2025-06-17 15:36:52,551 - root - INFO -> Generated caption for image 84/100: A bunch of teddy bears on display in a market.
+2025-06-17 15:36:53,007 - root - INFO -> Generated caption for image 85/100: A man standing in front of a brick fireplace.
+2025-06-17 15:36:53,384 - root - INFO -> Generated caption for image 86/100: A baseball player swinging a bat at a ball.
+2025-06-17 15:36:53,877 - root - INFO -> Generated caption for image 87/100: A bunch of ripe bananas sitting next to a cup of coffee.
+2025-06-17 15:36:54,245 - root - INFO -> Generated caption for image 88/100: A bowl of food that is on a table.
+2025-06-17 15:36:54,720 - root - INFO -> Generated caption for image 89/100: A truck with a stuffed animal in the back of it.
+2025-06-17 15:36:55,202 - root - INFO -> Generated caption for image 90/100: A black and white cat laying on top of a baseball glove.
+2025-06-17 15:36:55,803 - root - INFO -> Generated caption for image 91/100: A cat is sitting on top of a bookshelf.
+2025-06-17 15:36:56,249 - root - INFO -> Generated caption for image 92/100: A young boy is swinging a baseball bat.
+2025-06-17 15:36:56,663 - root - INFO -> Generated caption for image 93/100: A suitcase sitting on top of a bed.
+2025-06-17 15:36:57,084 - root - INFO -> Generated caption for image 94/100: A man flying through the air while riding a skateboard.
+2025-06-17 15:36:57,490 - root - INFO -> Generated caption for image 95/100: A red stop sign on the side of a street.
+2025-06-17 15:36:57,957 - root - INFO -> Generated caption for image 96/100: A hot dog and a bottle of soda on a table.
+2025-06-17 15:36:58,387 - root - INFO -> Generated caption for image 97/100: A group of young men playing soccer on a field.
+2025-06-17 15:36:58,856 - root - INFO -> Generated caption for image 98/100: A red double decker bus driving down a street.
+2025-06-17 15:36:59,363 - root - INFO -> Generated caption for image 99/100: A woman sitting at a table with a plate of food.
+2025-06-17 15:36:59,812 - root - INFO -> Generated caption for image 100/100: A cat sitting on a window sill looking out of the window.
+2025-06-17 15:36:59,827 - root - INFO -> Captions saved to /home/jovyan/Desktop/ACVPR-Project/Outputs/noisy_images_20250617_153659_captions.json
+2025-06-17 15:36:59,827 - root - INFO -> For object removal images:
+2025-06-17 15:37:00,288 - root - INFO -> Generated caption for image 1/99: A knife sitting on top of a wooden table.
+2025-06-17 15:37:00,680 - root - INFO -> Generated caption for image 2/99: Two brown bears walking in a grassy field.
+2025-06-17 15:37:04,247 - root - INFO -> Generated caption for image 3/99: A photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo of a grainy photo
+2025-06-17 15:37:04,656 - root - INFO -> Generated caption for image 4/99: a close up of a Nintendo Wii remote on a table.
+2025-06-17 15:37:05,316 - root - INFO -> Generated caption for image 5/99: A woman wearing a helmet and riding a motorcycle.
+2025-06-17 15:37:05,803 - root - INFO -> Generated caption for image 6/99: Two boats are parked on the side of a body of water.
+2025-06-17 15:37:06,213 - root - INFO -> Generated caption for image 7/99: A bowl of fruit sitting on top of a table.
+2025-06-17 15:37:06,608 - root - INFO -> Generated caption for image 8/99: A man and woman standing in front of a display case.
+2025-06-17 15:37:07,128 - root - INFO -> Generated caption for image 9/99: A group of people on a beach flying kites.
+2025-06-17 15:37:07,563 - root - INFO -> Generated caption for image 10/99: A view of a river with birds flying over it.
+2025-06-17 15:37:08,029 - root - INFO -> Generated caption for image 11/99: A couple of people on skis standing in the snow.
+2025-06-17 15:37:08,498 - root - INFO -> Generated caption for image 12/99: A couple of teddy bears sitting on top of a table.
+2025-06-17 15:37:08,937 - root - INFO -> Generated caption for image 13/99: A slice of pizza on a white plate with a fork.
+2025-06-17 15:37:09,358 - root - INFO -> Generated caption for image 14/99: A woman standing next to a train on a platform.
+2025-06-17 15:37:10,044 - root - INFO -> Generated caption for image 15/99: A group of people walking down a dirt path.
+2025-06-17 15:37:10,445 - root - INFO -> Generated caption for image 16/99: A black cat sitting on top of a white bowl.
+2025-06-17 15:37:10,936 - root - INFO -> Generated caption for image 17/99: A skateboarder is doing a trick in the air.
+2025-06-17 15:37:11,419 - root - INFO -> Generated caption for image 18/99: A person taking a picture of a dog in the side view mirror.
+2025-06-17 15:37:11,899 - root - INFO -> Generated caption for image 19/99: A living room filled with furniture and a coffee table.
+2025-06-17 15:37:12,472 - root - INFO -> Generated caption for image 20/99: A bunch of stuffed animals sitting next to each other.
+2025-06-17 15:37:13,031 - root - INFO -> Generated caption for image 21/99: A close up of a person holding a thumb up.
+2025-06-17 15:37:13,468 - root - INFO -> Generated caption for image 22/99: A police car on the side of a road.
+2025-06-17 15:37:14,001 - root - INFO -> Generated caption for image 23/99: Two giraffes standing next to each other in a field.
+2025-06-17 15:37:14,364 - root - INFO -> Generated caption for image 24/99: A clock sits on top of a wooden shelf.
+2025-06-17 15:37:14,744 - root - INFO -> Generated caption for image 25/99: A white plate topped with a sandwich and salad.
+2025-06-17 15:37:15,108 - root - INFO -> Generated caption for image 26/99: A person riding skis in the snow.
+2025-06-17 15:37:15,635 - root - INFO -> Generated caption for image 27/99: A little girl sitting at a table with a piece of cake.
+2025-06-17 15:37:16,074 - root - INFO -> Generated caption for image 28/99: A close up of a broken umbrella on the ground.
+2025-06-17 15:37:16,586 - root - INFO -> Generated caption for image 29/99: A woman in a hospital gown tending to a baby.
+2025-06-17 15:37:16,982 - root - INFO -> Generated caption for image 30/99: A view of a traffic light on a city street.
+2025-06-17 15:37:17,467 - root - INFO -> Generated caption for image 31/99: A man and a woman sitting at a table in a dining room.
+2025-06-17 15:37:17,866 - root - INFO -> Generated caption for image 32/99: A young man riding a skateboard on a city street.
+2025-06-17 15:37:18,341 - root - INFO -> Generated caption for image 33/99: A picture of a bunch of surfers floating in the water.
+2025-06-17 15:37:18,743 - root - INFO -> Generated caption for image 34/99: A red train on a train track next to a tunnel.
+2025-06-17 15:37:19,168 - root - INFO -> Generated caption for image 35/99: A kitchen with a table and chairs in it.
+2025-06-17 15:37:19,644 - root - INFO -> Generated caption for image 36/99: Black and white photo of a bike parked next to a sidewalk.
+2025-06-17 15:37:20,013 - root - INFO -> Generated caption for image 37/99: A street sign in front of a fire hydrant.
+2025-06-17 15:37:20,405 - root - INFO -> Generated caption for image 38/99: A man sitting in a tent eating a hot dog.
+2025-06-17 15:37:20,926 - root - INFO -> Generated caption for image 39/99: A desktop computer sitting on top of a desk.
+2025-06-17 15:37:21,309 - root - INFO -> Generated caption for image 40/99: A group of baseball players walking across a field.
+2025-06-17 15:37:21,673 - root - INFO -> Generated caption for image 41/99: A woman hitting a tennis ball with a racket.
+2025-06-17 15:37:22,149 - root - INFO -> Generated caption for image 42/99: A man in a suit and tie poses for a picture.
+2025-06-17 15:37:22,561 - root - INFO -> Generated caption for image 43/99: A brown dog standing in front of a bathtub.
+2025-06-17 15:37:22,989 - root - INFO -> Generated caption for image 44/99: A couple of people standing on a beach holding surfboards.
+2025-06-17 15:37:23,424 - root - INFO -> Generated caption for image 45/99: A large brown bear sitting on top of a rock.
+2025-06-17 15:37:23,825 - root - INFO -> Generated caption for image 46/99: A woman standing next to a man in a baseball uniform.
+2025-06-17 15:37:24,370 - root - INFO -> Generated caption for image 47/99: A horse standing next to a wooden fence.
+2025-06-17 15:37:24,733 - root - INFO -> Generated caption for image 48/99: A plate of food on top of a table.
+2025-06-17 15:37:25,131 - root - INFO -> Generated caption for image 49/99: A photo of a propeller plane flying in the air.
+2025-06-17 15:37:25,641 - root - INFO -> Generated caption for image 50/99: A couple of birds standing on a sidewalk next to each other.
+2025-06-17 15:37:25,971 - root - INFO -> Generated caption for image 51/99: A flock of geese walking down a street.
+2025-06-17 15:37:26,652 - root - INFO -> Generated caption for image 52/99: A cake sitting on top of a table.
+2025-06-17 15:37:27,046 - root - INFO -> Generated caption for image 53/99: A woman holding a baseball bat in front of a man.
+2025-06-17 15:37:27,448 - root - INFO -> Generated caption for image 54/99: A boy blowing out candles on a birthday cake.
+2025-06-17 15:37:27,812 - root - INFO -> Generated caption for image 55/99: A buffet of various food items on a table.
+2025-06-17 15:37:28,213 - root - INFO -> Generated caption for image 56/99: A man in a room holding a green kite.
+2025-06-17 15:37:28,574 - root - INFO -> Generated caption for image 57/99: A cat sitting in front of a living room.
+2025-06-17 15:37:29,050 - root - INFO -> Generated caption for image 58/99: A flock of seagulls flying over a body of water.
+2025-06-17 15:37:29,445 - root - INFO -> Generated caption for image 59/99: a close up of a toilet in a bathroom.
+2025-06-17 15:37:29,924 - root - INFO -> Generated caption for image 60/99: A red and white fire hydrant is next to a house.
+2025-06-17 15:37:30,287 - root - INFO -> Generated caption for image 61/99: A pan filled with chopped vegetables in a frying pan.
+2025-06-17 15:37:30,665 - root - INFO -> Generated caption for image 62/99: A person walking down a city street with a taxi.
+2025-06-17 15:37:31,182 - root - INFO -> Generated caption for image 63/99: A living room filled with furniture and a couch.
+2025-06-17 15:37:31,582 - root - INFO -> Generated caption for image 64/99: A pile of snow covered parking meters covered in snow.
+2025-06-17 15:37:31,945 - root - INFO -> Generated caption for image 65/99: A plate of pasta with shrimp and broccoli.
+2025-06-17 15:37:32,345 - root - INFO -> Generated caption for image 66/99: A bus that is sitting on the side of the road.
+2025-06-17 15:37:32,860 - root - INFO -> Generated caption for image 67/99: A man riding a surfboard on top of a wave.
+2025-06-17 15:37:33,337 - root - INFO -> Generated caption for image 68/99: A man sitting at a table with a pizza in front of him.
+2025-06-17 15:37:33,772 - root - INFO -> Generated caption for image 69/99: a bath room with a toilet and a towel rack.
+2025-06-17 15:37:34,207 - root - INFO -> Generated caption for image 70/99: A staircase leading into a building with a clock on it.
+2025-06-17 15:37:34,602 - root - INFO -> Generated caption for image 71/99: A photo of a room with a camera on it.
+2025-06-17 15:37:34,963 - root - INFO -> Generated caption for image 72/99: A small plane sitting on top of an airfield.
+2025-06-17 15:37:35,400 - root - INFO -> Generated caption for image 73/99: A couple of people flying a kite on the beach.
+2025-06-17 15:37:35,876 - root - INFO -> Generated caption for image 74/99: A semi-truck is parked outside of an airport.
+2025-06-17 15:37:36,391 - root - INFO -> Generated caption for image 75/99: A man standing next to a statue of a man holding a skateboard.
+2025-06-17 15:37:36,789 - root - INFO -> Generated caption for image 76/99: A bowl of soup sitting on top of a table.
+2025-06-17 15:37:37,150 - root - INFO -> Generated caption for image 77/99: A pair of snowy kites flying in the air.
+2025-06-17 15:37:37,665 - root - INFO -> Generated caption for image 78/99: A group of people paddling on top of a large body of water.
+2025-06-17 15:37:38,059 - root - INFO -> Generated caption for image 79/99: A car is parked next to a fire hydrant.
+2025-06-17 15:37:38,424 - root - INFO -> Generated caption for image 80/99: A group of people flying kites on a beach.
+2025-06-17 15:37:38,754 - root - INFO -> Generated caption for image 81/99: A man is riding a horse in a stadium.
+2025-06-17 15:37:39,388 - root - INFO -> Generated caption for image 82/99: A table with a vase of food and a vase of flowers.
+2025-06-17 15:37:39,903 - root - INFO -> Generated caption for image 83/99: A group of teddy bears on a sidewalk in front of a store.
+2025-06-17 15:37:40,309 - root - INFO -> Generated caption for image 84/99: A man is standing in front of a brick oven.
+2025-06-17 15:37:40,948 - root - INFO -> Generated caption for image 85/99: A baseball player is trying to catch a ball.
+2025-06-17 15:37:41,462 - root - INFO -> Generated caption for image 86/99: A bunch of bananas sitting next to a cup of coffee.
+2025-06-17 15:37:42,062 - root - INFO -> Generated caption for image 87/99: A bowl of apples and a bowl of mashed potatoes next to a bowl of apples.
+2025-06-17 15:37:42,423 - root - INFO -> Generated caption for image 88/99: A cooking prop sitting on top of a trash can.
+2025-06-17 15:37:42,816 - root - INFO -> Generated caption for image 89/99: A black and white cat laying on top of a bag.
+2025-06-17 15:37:43,373 - root - INFO -> Generated caption for image 90/99: A teddy bear sitting on top of a bookshelf.
+2025-06-17 15:37:43,733 - root - INFO -> Generated caption for image 91/99: A young boy swinging a baseball bat at a ball.
+2025-06-17 15:37:44,061 - root - INFO -> Generated caption for image 92/99: A suitcase sitting on top of a white bed.
+2025-06-17 15:37:44,496 - root - INFO -> Generated caption for image 93/99: A person on a skateboard doing a trick on a ramp.
+2025-06-17 15:37:44,878 - root - INFO -> Generated caption for image 94/99: A stop sign sitting on the side of a road.
+2025-06-17 15:37:45,273 - root - INFO -> Generated caption for image 95/99: Two sandwiches on a table next to a bottle of soda.
+2025-06-17 15:37:45,637 - root - INFO -> Generated caption for image 96/99: A group of young men playing soccer on a field.
+2025-06-17 15:37:45,998 - root - INFO -> Generated caption for image 97/99: A red double decker bus driving down a street.
+2025-06-17 15:37:46,553 - root - INFO -> Generated caption for image 98/99: A woman sitting at a table with a plate of food.
+2025-06-17 15:37:47,065 - root - INFO -> Generated caption for image 99/99: A clock sitting on top of a table in front of a window.
+2025-06-17 15:37:47,089 - root - INFO -> Captions saved to /home/jovyan/Desktop/ACVPR-Project/Outputs/removed_images_20250617_153747_captions.json
+2025-06-17 15:37:47,089 - root - INFO -> Caption generation completed for all images.
+2025-06-17 15:37:47,089 - root - INFO -> --------------------------------------------------
+2025-06-17 15:37:47,089 - root - INFO -> Compare to groundtruth captions and extract metrics...
+2025-06-17 15:37:47,089 - root - INFO -> Starting evaluation of generated captions from base_images

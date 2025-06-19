@@ -1,0 +1,202 @@
+{
+  "COCO_val2014_000000390134.jpg": {
+    "small": "fork",
+    "large": "cake"
+  },
+  "COCO_val2014_000000234643.jpg": {
+    "small": "kite",
+    "large": "person"
+  },
+  "COCO_val2014_000000332407.jpg": {
+    "small": "baseball bat",
+    "large": "person"
+  },
+  "COCO_val2014_000000335233.jpg": {
+    "small": "cup",
+    "large": "laptop"
+  },
+  "COCO_val2014_000000293071.jpg": {
+    "small": "car",
+    "large": "fire hydrant"
+  },
+  "COCO_val2014_000000339336.jpg": {
+    "small": "skis",
+    "large": "person"
+  },
+  "COCO_val2014_000000248703.jpg": {
+    "small": "sports ball",
+    "large": "person"
+  },
+  "COCO_val2014_000000067881.jpg": {
+    "small": "baseball bat",
+    "large": "person"
+  },
+  "COCO_val2014_000000557998.jpg": {
+    "small": "bottle",
+    "large": "person"
+  },
+  "COCO_val2014_000000344410.jpg": {
+    "small": "frisbee",
+    "large": "person"
+  },
+  "COCO_val2014_000000508302.jpg": {
+    "small": "motorcycle",
+    "large": "person"
+  },
+  "COCO_val2014_000000546980.jpg": {
+    "small": "sheep",
+    "large": "sheep"
+  },
+  "COCO_val2014_000000494404.jpg": {
+    "small": "stop sign",
+    "large": "traffic light"
+  },
+  "COCO_val2014_000000201685.jpg": {
+    "small": "surfboard",
+    "large": "person"
+  },
+  "COCO_val2014_000000129135.jpg": {
+    "small": "bench",
+    "large": "train"
+  },
+  "COCO_val2014_000000019333.jpg": {
+    "small": "cell phone",
+    "large": "handbag"
+  },
+  "COCO_val2014_000000324595.jpg": {
+    "small": "frisbee",
+    "large": "person"
+  },
+  "COCO_val2014_000000150943.jpg": {
+    "small": "snowboard",
+    "large": "person"
+  },
+  "COCO_val2014_000000342146.jpg": {
+    "small": "person",
+    "large": "cow"
+  },
+  "COCO_val2014_000000561311.jpg": {
+    "small": "pizza",
+    "large": "person"
+  },
+  "COCO_val2014_000000100977.jpg": {
+    "small": "giraffe",
+    "large": "person"
+  },
+  "COCO_val2014_000000371529.jpg": {
+    "small": "toilet",
+    "large": "person"
+  },
+  "COCO_val2014_000000561403.jpg": {
+    "small": "tv",
+    "large": "tv"
+  },
+  "COCO_val2014_000000358231.jpg": {
+    "small": "person",
+    "large": "person"
+  },
+  "COCO_val2014_000000284542.jpg": {
+    "small": "tennis racket",
+    "large": "person"
+  },
+  "COCO_val2014_000000141509.jpg": {
+    "small": "tie",
+    "large": "teddy bear"
+  },
+  "COCO_val2014_000000150726.jpg": {
+    "small": "giraffe",
+    "large": "giraffe"
+  },
+  "COCO_val2014_000000528251.jpg": {
+    "small": "donut",
+    "large": "dog"
+  },
+  "COCO_val2014_000000450357.jpg": {
+    "small": "person",
+    "large": "person"
+  },
+  "COCO_val2014_000000244339.jpg": {
+    "small": "sports ball",
+    "large": "person"
+  },
+  "COCO_val2014_000000351149.jpg": {
+    "small": "sink",
+    "large": "toilet"
+  },
+  "COCO_val2014_000000281056.jpg": {
+    "small": "cell phone",
+    "large": "person"
+  },
+  "COCO_val2014_000000306186.jpg": {
+    "small": "sports ball",
+    "large": "tennis racket"
+  },
+  "COCO_val2014_000000428064.jpg": {
+    "small": "person",
+    "large": "kite"
+  },
+  "COCO_val2014_000000573968.jpg": {
+    "small": "skis",
+    "large": "person"
+  },
+  "COCO_val2014_000000116226.jpg": {
+    "small": "scissors",
+    "large": "spoon"
+  },
+  "COCO_val2014_000000571264.jpg": {
+    "small": "person",
+    "large": "motorcycle"
+  },
+  "COCO_val2014_000000157365.jpg": {
+    "small": "skateboard",
+    "large": "person"
+  },
+  "COCO_val2014_000000144862.jpg": {
+    "small": "dog",
+    "large": "person"
+  },
+  "COCO_val2014_000000233005.jpg": {
+    "small": "person",
+    "large": "cat"
+  },
+  "COCO_val2014_000000343401.jpg": {
+    "small": "horse",
+    "large": "dog"
+  },
+  "COCO_val2014_000000185472.jpg": {
+    "small": "bicycle",
+    "large": "train"
+  },
+  "COCO_val2014_000000023802.jpg": {
+    "small": "person",
+    "large": "airplane"
+  },
+  "COCO_val2014_000000570077.jpg": {
+    "small": "frisbee",
+    "large": "dog"
+  },
+  "COCO_val2014_000000198935.jpg": {
+    "small": "fire hydrant",
+    "large": "dog"
+  },
+  "COCO_val2014_000000412184.jpg": {
+    "small": "person",
+    "large": "airplane"
+  },
+  "COCO_val2014_000000023895.jpg": {
+    "small": "skateboard",
+    "large": "person"
+  },
+  "COCO_val2014_000000306339.jpg": {
+    "small": "dog",
+    "large": "person"
+  },
+  "COCO_val2014_000000461945.jpg": {
+    "small": "sports ball",
+    "large": "tennis racket"
+  },
+  "COCO_val2014_000000544120.jpg": {
+    "small": "cell phone",
+    "large": "pizza"
+  }
+}
