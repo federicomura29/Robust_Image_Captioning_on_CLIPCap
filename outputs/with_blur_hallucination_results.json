@@ -1,0 +1,402 @@
+{
+    "000000390134": {
+        "small_removed": "fork",
+        "large_removed": "cake",
+        "small_caption": "a close up of a piece of cake on a plate.",
+        "large_caption": "a close up of a plate with a fork on it.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000234643": {
+        "small_removed": "kite",
+        "large_removed": "person",
+        "small_caption": "a man walking on a stone wall next to a stone wall.",
+        "large_caption": "a person flying a kite on top of a stone wall.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000332407": {
+        "small_removed": "baseball bat",
+        "large_removed": "person",
+        "small_caption": "a man and a boy standing next to each other on a field.",
+        "large_caption": "a boy holding a baseball bat on a field.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000335233": {
+        "small_removed": "cup",
+        "large_removed": "laptop",
+        "small_caption": "a laptop computer sitting on top of a wooden desk.",
+        "large_caption": "a laptop computer sitting on top of a wooden desk.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000293071": {
+        "small_removed": "car",
+        "large_removed": "fire hydrant",
+        "small_caption": "a blue fire hydrant on the side of a road.",
+        "large_caption": "a view of a parking meter on the side of a city street.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000339336": {
+        "small_removed": "skis",
+        "large_removed": "person",
+        "small_caption": "a man standing in the snow on a snowy day.",
+        "large_caption": "a snow covered area covered in snow by a fire hydrant.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000248703": {
+        "small_removed": "sports ball",
+        "large_removed": "person",
+        "small_caption": "a group of young people playing soccer on a field.",
+        "large_caption": "a group of people playing soccer on a field.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000067881": {
+        "small_removed": "baseball bat",
+        "large_removed": "person",
+        "small_caption": "a boy holding a baseball bat on top of a dirt field.",
+        "large_caption": "a person holding a baseball bat on a tennis court.",
+        "hallucinated_small": true,
+        "hallucinated_large": true
+    },
+    "000000557998": {
+        "small_removed": "bottle",
+        "large_removed": "person",
+        "small_caption": "a young woman sitting at a table with a glass of wine.",
+        "large_caption": "a bottle of water sitting on top of a bench.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000344410": {
+        "small_removed": "frisbee",
+        "large_removed": "person",
+        "small_caption": "a man standing on a field with a frisbee.",
+        "large_caption": "two people playing a game of frisbee on a field.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000508302": {
+        "small_removed": "motorcycle",
+        "large_removed": "person",
+        "small_caption": "a man riding a motorcycle on a street.",
+        "large_caption": "a person on a motorcycle on a city street.",
+        "hallucinated_small": true,
+        "hallucinated_large": true
+    },
+    "000000546980": {
+        "small_removed": "sheep",
+        "large_removed": "sheep",
+        "small_caption": "a bird laying down on a grassy hillside.",
+        "large_caption": "a picture of a grassy area with rocks and water.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000494404": {
+        "small_removed": "stop sign",
+        "large_removed": "traffic light",
+        "small_caption": "a traffic light that is sitting on top of a body of water.",
+        "large_caption": "a stop sign sitting on the side of a street.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000201685": {
+        "small_removed": "surfboard",
+        "large_removed": "person",
+        "small_caption": "a man riding a wave on top of a surfboard.",
+        "large_caption": "a person riding a surfboard on top of a wave.",
+        "hallucinated_small": true,
+        "hallucinated_large": true
+    },
+    "000000129135": {
+        "small_removed": "bench",
+        "large_removed": "train",
+        "small_caption": "a blue and yellow train is parked at a train station.",
+        "large_caption": "a view of a train station with a train track behind it.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000019333": {
+        "small_removed": "cell phone",
+        "large_removed": "handbag",
+        "small_caption": "the contents of a purse are laid out on top of a table.",
+        "large_caption": "a table topped with various items including a cell phone, a pen, a calculator, a wallet, a wallet, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen, a pen",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000324595": {
+        "small_removed": "frisbee",
+        "large_removed": "person",
+        "small_caption": "a couple of young men playing frisbee in a field.",
+        "large_caption": "a man jumping in the air to catch a frisbee.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000150943": {
+        "small_removed": "snowboard",
+        "large_removed": "person",
+        "small_caption": "a couple of people standing on top of a snow covered hill.",
+        "large_caption": "a person standing on top of a snow covered slope.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000342146": {
+        "small_removed": "person",
+        "large_removed": "cow",
+        "small_caption": "a cow is being fed by a person behind a fence.",
+        "large_caption": "a man standing next to a fence in a backyard.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000561311": {
+        "small_removed": "pizza",
+        "large_removed": "person",
+        "small_caption": "a chef standing in front of a bunch of vegetables.",
+        "large_caption": "a kitchen with a lot of food on a table.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000100977": {
+        "small_removed": "giraffe",
+        "large_removed": "person",
+        "small_caption": "a woman holding a camera in front of a fence.",
+        "large_caption": "a giraffe behind a fence at a zoo.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000371529": {
+        "small_removed": "toilet",
+        "large_removed": "person",
+        "small_caption": "a little girl is sitting in a bathroom with a toilet brush.",
+        "large_caption": "a toilet with a toilet seat next to a trash can.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000561403": {
+        "small_removed": "tv",
+        "large_removed": "tv",
+        "small_caption": "a laptop computer sitting on top of a desk.",
+        "large_caption": "a laptop computer sitting on top of a desk.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000358231": {
+        "small_removed": "person",
+        "large_removed": "person",
+        "small_caption": "a child laying on a bed in a room.",
+        "large_caption": "a small child laying on a bed with a blanket.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000284542": {
+        "small_removed": "tennis racket",
+        "large_removed": "person",
+        "small_caption": "a woman holding a tennis racquet on a tennis court.",
+        "large_caption": "a rack of tennis racquets sitting on top of a stage.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000141509": {
+        "small_removed": "tie",
+        "large_removed": "teddy bear",
+        "small_caption": "a little boy in a white shirt and tie holding a bear.",
+        "large_caption": "a young boy in a suit and tie poses for a picture.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000150726": {
+        "small_removed": "giraffe",
+        "large_removed": "giraffe",
+        "small_caption": "a giraffe standing next to a tree in a field.",
+        "large_caption": "a giraffe is walking around in a grassy field.",
+        "hallucinated_small": true,
+        "hallucinated_large": true
+    },
+    "000000528251": {
+        "small_removed": "donut",
+        "large_removed": "dog",
+        "small_caption": "a black dog standing on top of a kitchen floor.",
+        "large_caption": "a pink rug sitting on top of a white floor.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000450357": {
+        "small_removed": "person",
+        "large_removed": "person",
+        "small_caption": "a man standing in front of a bathroom mirror.",
+        "large_caption": "a man standing in front of a bathroom mirror.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000244339": {
+        "small_removed": "sports ball",
+        "large_removed": "person",
+        "small_caption": "a man holding a tennis ball in his hand.",
+        "large_caption": "a picture of a bowl of food sitting on a table.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000351149": {
+        "small_removed": "sink",
+        "large_removed": "toilet",
+        "small_caption": "a bathroom with a toilet and a sink.",
+        "large_caption": "a white toilet in a bathroom next to a sink.",
+        "hallucinated_small": true,
+        "hallucinated_large": true
+    },
+    "000000281056": {
+        "small_removed": "cell phone",
+        "large_removed": "person",
+        "small_caption": "a man holding a yellow frisbee in a field.",
+        "large_caption": "an empty field with trees and grass in the distance.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000306186": {
+        "small_removed": "sports ball",
+        "large_removed": "tennis racket",
+        "small_caption": "a man standing on top of a tennis court.",
+        "large_caption": "a man standing on top of a tennis court holding a racquet.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000428064": {
+        "small_removed": "person",
+        "large_removed": "kite",
+        "small_caption": "a couple of people flying a kite in a park.",
+        "large_caption": "a man is playing with a frisbee in a park.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000573968": {
+        "small_removed": "skis",
+        "large_removed": "person",
+        "small_caption": "a man riding a snowboard down a snow covered slope.",
+        "large_caption": "a picture of a snowboard in the snow.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000116226": {
+        "small_removed": "scissors",
+        "large_removed": "spoon",
+        "small_caption": "a picture of a pair of scissors and a pair of scissors.",
+        "large_caption": "a picture of a pair of scissors hanging on a wall.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000571264": {
+        "small_removed": "person",
+        "large_removed": "motorcycle",
+        "small_caption": "a black and white photo of a motorcycle parked on the side of a road.",
+        "large_caption": "a young man riding a skateboard down a street.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000157365": {
+        "small_removed": "skateboard",
+        "large_removed": "person",
+        "small_caption": "a man is riding a skateboard down the street.",
+        "large_caption": "a view of a car on the side of the road.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000144862": {
+        "small_removed": "dog",
+        "large_removed": "person",
+        "small_caption": "a group of people riding skis down a snow covered slope.",
+        "large_caption": "a man and a dog standing in the snow.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000233005": {
+        "small_removed": "person",
+        "large_removed": "cat",
+        "small_caption": "a cat laying on top of a wooden chair.",
+        "large_caption": "a close up of a cat sitting on a wooden bench.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000343401": {
+        "small_removed": "horse",
+        "large_removed": "dog",
+        "small_caption": "a man and a dog on a horse drawn carriage.",
+        "large_caption": "a man and a woman riding on a horse drawn carriage.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000185472": {
+        "small_removed": "bicycle",
+        "large_removed": "train",
+        "small_caption": "a man walking on the tracks next to a train.",
+        "large_caption": "a man on a bicycle standing next to a train.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000023802": {
+        "small_removed": "person",
+        "large_removed": "airplane",
+        "small_caption": "an airplane that is sitting on top of an airport.",
+        "large_caption": "a man standing on the side of a parking lot.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000570077": {
+        "small_removed": "frisbee",
+        "large_removed": "dog",
+        "small_caption": "a couple of dogs in a grassy field.",
+        "large_caption": "a dog playing with a frisbee in a grassy field.",
+        "hallucinated_small": false,
+        "hallucinated_large": true
+    },
+    "000000198935": {
+        "small_removed": "fire hydrant",
+        "large_removed": "dog",
+        "small_caption": "a dog standing next to a dog on a lawn.",
+        "large_caption": "a yellow fire hydrant sitting on the side of a sidewalk.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000412184": {
+        "small_removed": "person",
+        "large_removed": "airplane",
+        "small_caption": "a small plane sitting on top of an airport tarmac.",
+        "large_caption": "a couple of people standing in front of a parking lot.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000023895": {
+        "small_removed": "skateboard",
+        "large_removed": "person",
+        "small_caption": "a man riding a skateboard down a ramp.",
+        "large_caption": "a man riding a skateboard down a ramp.",
+        "hallucinated_small": true,
+        "hallucinated_large": false
+    },
+    "000000306339": {
+        "small_removed": "dog",
+        "large_removed": "person",
+        "small_caption": "a barefoot person standing on a grassy area.",
+        "large_caption": "a dog laying on top of a patch of grass.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000461945": {
+        "small_removed": "sports ball",
+        "large_removed": "tennis racket",
+        "small_caption": "a man holding a tennis racquet on top of a tennis court.",
+        "large_caption": "a man hitting a tennis ball with a racket.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    },
+    "000000544120": {
+        "small_removed": "cell phone",
+        "large_removed": "pizza",
+        "small_caption": "a person sitting in front of a large pizza.",
+        "large_caption": "a woman sitting at a table with a phone in her hand.",
+        "hallucinated_small": false,
+        "hallucinated_large": false
+    }
+}

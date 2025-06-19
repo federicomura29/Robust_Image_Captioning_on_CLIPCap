@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-INPUT_FILE = "outputs/hallucination_results.json"
+INPUT_FILE = "outputs/with_blur_hallucination_results.json"
 
 
 def main():
@@ -29,7 +29,7 @@ def main():
         if hs or hl:
             hallucinated_either += 1
 
-    print("Hallucination Report")
+    print("Hallucination Report for images with Blurred & Removed Objects")
     print("=" * 40)
     print(f"Total Images Evaluated       : {total}")
     print(

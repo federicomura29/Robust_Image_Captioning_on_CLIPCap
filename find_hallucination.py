@@ -61,8 +61,8 @@ def main():
     for file_name, removed_objects in tqdm(removal_map.items()):
         image_id = file_name.split("_")[-1].split(".")[0]
         base_name = f"COCO_val2014_{image_id}.jpg"
-        small_img = os.path.join(REMOVED_DIR, f"removed_small_{base_name}")
-        large_img = os.path.join(REMOVED_DIR, f"removed_large_{base_name}")
+        small_img = os.path.join(REMOVED_DIR, f"with_blur/removed_small_{base_name}")
+        large_img = os.path.join(REMOVED_DIR, f"with_blur/removed_large_{base_name}")
 
         small_removed = removed_objects["small"].lower()
         large_removed = removed_objects["large"].lower()
@@ -83,7 +83,7 @@ def main():
             "hallucinated_large": large_removed in large_caption,
         }
 
-    out_path = os.path.join(OUTPUT_DIR, "hallucination_results.json")
+    out_path = os.path.join(OUTPUT_DIR, "with_blur_hallucination_results.json")
     with open(out_path, "w") as f:
         json.dump(hallucination_results, f, indent=4)
 
