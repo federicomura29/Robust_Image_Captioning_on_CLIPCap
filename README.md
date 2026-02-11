@@ -1,4 +1,4 @@
-This repository contains our research work building upon ClipCap/ The modifications and experiments described in our paper, included here, reflect our contributions and findings.You can read our research paper [here](paper.pdf).
+This repository contains our research work building upon ClipCap/ The modifications and experiments described in our paper, included here, reflect our contributions and findings.You can read our research paper [here](ACVPR_project.pdf).
 
 # CLIP prefix captioning.
 
