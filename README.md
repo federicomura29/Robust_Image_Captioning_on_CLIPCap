@@ -1,3 +1,5 @@
+This repository contains our research work building upon ClipCap/ The modifications and experiments described in our paper, included here, reflect our contributions and findings.You can read our research paper [here](paper.pdf).
+
 # CLIP prefix captioning.
 
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
